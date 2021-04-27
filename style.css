@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Roboto+Slab:wght@400;600&display=swap");
+
+body {
+  width: 800px;
+  font-family: "Roboto Slab", sans-serif;
+  margin: 20px auto;
+  
+}
+
+.top-part {
+  font-family: "Lato", sans-serif;
+  color: #666699;
+  background-color: #e699ff;
+  padding: 15px;
+  text-align: center;
+}
+
+h3{
+  margin-left: 13px;
+}
+
+.grid-image{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  }
+
+.image-location{
+  grid-column: 2/3;
+  grid-row: 1;
+  margin: auto;
+}
+
+.content{
+  grid-column: 1/2;
+  }
+
+.footer {
+  text-align: center;
+  background-color: #e699ff;
+  padding: 15px;
+  color: #666699;
+}
+
+.byuOnline {
+  display: in-line;
+  text-decoration: none;
+  text-aling: center;
+}
+
+.nostyle {
+  list-style: none;
+  color: #666699;
+}
