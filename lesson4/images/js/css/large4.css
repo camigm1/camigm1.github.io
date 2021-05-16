@@ -1,0 +1,52 @@
+@media only screen and (min-width: 32.5em) {
+
+	.navigation {
+		display: flex;
+        margin-top: 0;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+        padding: 35px;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+    body{
+        box-sizing: border-box;
+    }
+    
+    
+    nav{
+        background-color: #1d3557;
+    }
+    
+    nav ul{
+        list-style: none;
+    }
+    
+    nav a{
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    div p{
+        border: 1px solid gray;
+        padding: 50px;
+        font-weight: bold;
+    
+    }
+
+    .header{
+        height: 150px;
+    }
+    section p{
+        padding: 0;
+    }
+}
