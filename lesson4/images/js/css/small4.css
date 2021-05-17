@@ -79,17 +79,6 @@ div p{
     color :black;
   }
 
-  .byuOnline {
-    display: in-line;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  .nostyle {
-    list-style: none;
-
-  }
-
   section p{
     padding: 0;
 }
