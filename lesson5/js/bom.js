@@ -1,5 +1,5 @@
 const fav = document.querySelector('#fav');
-const button = button.querySelector('button');
+const button = document.querySelector('button');
 
 const output = document.querySelector('.list');
 
