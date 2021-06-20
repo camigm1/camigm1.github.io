@@ -19,16 +19,19 @@ h2{
   margin-left: 13px;
 }
 
-.grid-image{
+
+
+/*.grid-image{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  }
+  }*/
 
 .image-location{
-  grid-column: 2/3;
+  float: left;
+  /*grid-column: 2/3;
   grid-row: 1;
-  margin: auto;
+  margin: auto;*/
 }
 
 .content{

@@ -75,7 +75,34 @@ nav a{
     padding: 0;
 }
 
-  
+.cities{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 5px;
+}
+
+.fish-haven{
+    border: 1px solid black;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 5px;
+
+}
+
+.preston{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 5px;
+}
+
+.soda-springs{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 5px;
+}
+
+
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">

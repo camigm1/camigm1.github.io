@@ -128,3 +128,26 @@
     }
 
 }
+
+.cities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.preston{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.fish-haven{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.soda-springs{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+
+}
