@@ -27,7 +27,7 @@ h2{
   grid-template-rows: 1fr;
   }*/
 
-.image-location{
+.image-location img{
   float: left;
   /*grid-column: 2/3;
   grid-row: 1;
