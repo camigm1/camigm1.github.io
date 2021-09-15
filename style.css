@@ -4,7 +4,6 @@ body {
   width: 800px;
   font-family: "Roboto Slab", sans-serif;
   margin: 20px auto;
-  
 }
 
 .top-part {
@@ -15,11 +14,9 @@ body {
   text-align: center;
 }
 
-h2{
+h2 {
   margin-left: 13px;
 }
-
-
 
 /*.grid-image{
   display: grid;
@@ -27,16 +24,20 @@ h2{
   grid-template-rows: 1fr;
   }*/
 
-.image-location img{
+.image-location img {
   float: right;
   /*grid-column: 2/3;
   grid-row: 1;
   margin: auto;*/
 }
 
-.content{
+.info-container {
+  height: 1000;
+}
+
+.content {
   grid-column: 1/2;
-  }
+}
 
 .footer {
   text-align: center;
@@ -44,4 +45,3 @@ h2{
   padding: 15px;
   color: black;
 }
-
