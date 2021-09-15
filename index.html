@@ -3,57 +3,43 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Assignment portal for Camila Gallegos for WDD 230: BYU Idaho"
+    />
     <title>Course Portal</title>
-    <link rel="stylesheet" href="normalize.css">
-     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <div class="top-part">
-      <h1>
-        Camila Gallegos
-      </h1>
-      <div class="image-location" >
-        <img src="/Profile.jpg" height="200" alt="profile-pic">
+    <header class="top-part">
+      <h1>Camila Gallegos</h1>
+      <div class="image-location">
+        <img src="/Profile.jpg" width="200" alt="profile" />
       </div>
-    </div>
-    <div class="grid-image">
+    </header>
+    <div>
       <div>
-        <h2>
-        WDD 230: Assignment Portal
-      </h2>
-      <hr>
-      <ul class="content">
-        <li>Lesson 1: <a href="#">Assignment Link</a></li>
-        <li>Lesson 2: <a href="/lesson2/design-principles.html">Design Principles</a></li>
-        <li>Lesson 3: <a href="/lesson3/index.html">Website Plan</a></li>
-        <li>Lesson 4: <a href="/lesson4/images/js/css/preston-4.html">Preston-page</a></li>
-        <li>Lesson 5: <a href="/lesson5/bom.html">DOM Manipulation</a></li>
-        <li>Lesson 5: <a href="/lesson5/preston-5.html">Preston page continued</a></li>
-        <li>Lesson 6: <a href="/lesson6/preston-6.html">Preston page - Images & Fonts</a></li>
-        <li>Lesson 7: <a href="/lesson7/lazyload.html">Lazy Load</a></li>
-        <li>Lesson 7: <a href="/lesson7/gallery-7.html">Image Gallery</a></li>
-        <li>Lesson 8: <a href="/lesson8/stormcenter.html">Storm Center</a></li>
-        <li>Lesson 9: <a href="/lesson9/prophets.html">Prophets Activity</a></li>
-        <li>Lesson 9: <a href="/lesson9/home-wireframes.html">Home-Wireframes</a></li>
-        <li>Lesson 9: <a href=""></a></li>
-      </ul>
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr />
+        <ul class="content">
+          <li>Lesson 1: <a href="#">Assignment Link</a></li>
+        </ul>
       </div>
     </div>
     <footer class="footer">
-      <p>&copy;2021| Camila Gallegos | Utah, USA | <a href="https://www.byui.edu/">BYU|Online Learning</a></p>
-      <script>
-        if (Date.parse(document.lastModified) != 0)
-        document.write('<p><hr><small><i>Last modified: '
-                       + document.lastModified
-                       + '</i></small>');
-        </script>
+      <p>
+        &copy;2021| Camila Gallegos | Utah, USA |
+        <a href="https://www.byui.edu/">BYU|Online Learning</a>
+      </p>
+      <script src="time.js"></script>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({
         google: {
-          families: ['Roboto Slab','Lato']
-        }
+          families: ["Roboto Slab", "Lato"],
+        },
       });
     </script>
   </body>
