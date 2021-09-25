@@ -1,0 +1,8 @@
+@media only screen and (min-width: 32.5em) {
+  .image-location img {
+    float: right;
+  }
+  body {
+    width: 800px;
+  }
+}
