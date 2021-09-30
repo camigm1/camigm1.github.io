@@ -1,0 +1,106 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  background-color: #bfc0c0;
+  box-sizing: border-box;
+}
+
+.firstGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 50px 100px;
+  background-color: #ade8f4;
+  color: black;
+}
+
+h1 h3 p {
+  font-family: "EB Garamond", serif;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+.target {
+  margin: 50px;
+  display: inline-block;
+  width: 800px;
+  text-align: center;
+  align-items: center;
+}
+
+.align {
+  text-align: center;
+}
+
+.align p {
+  display: inline-block;
+  text-align: center;
+  width: 800px;
+  margin-bottom: 100px;
+}
+
+.color-scheme {
+  text-align: center;
+  height: 900px;
+}
+
+.typography {
+  text-align: center;
+  height: 900px;
+}
+
+.first-color {
+  background-color: #ade8f4;
+  padding: 30px;
+}
+
+.secondColor {
+  background-color: #a5e6ba;
+  padding: 30px;
+}
+
+.thirdColor {
+  background-color: #fbe680;
+  padding: 30px;
+}
+.fourthColor {
+  background-color: #1d3557;
+  padding: 30px;
+  color: white;
+}
+
+.garamond {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #ade8f4;
+  padding: 15px;
+  color: black;
+}
+
+.byuOnline {
+  display: in-line;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nostyle {
+  list-style: none;
+}
