@@ -1,14 +1,11 @@
 body {
   font-family: "Lato", sans-serif;
-  font-size: 25px;
+  font-size: 18px;
   background-color: #bfc0c0;
   box-sizing: border-box;
 }
 
 .firstGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
   padding: 50px 100px;
   background-color: #ade8f4;
   color: black;
@@ -32,7 +29,6 @@ ul li {
 .target {
   margin: 50px;
   display: inline-block;
-  width: 800px;
   text-align: center;
   align-items: center;
 }
@@ -44,8 +40,11 @@ ul li {
 .align p {
   display: inline-block;
   text-align: center;
-  width: 800px;
   margin-bottom: 100px;
+}
+
+.align .domain {
+  width: "300px";
 }
 
 .color-scheme {
@@ -54,6 +53,7 @@ ul li {
 }
 
 .typography {
+  font-size: 18px;
   text-align: center;
   height: 900px;
 }
