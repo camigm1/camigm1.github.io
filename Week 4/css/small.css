@@ -1,0 +1,113 @@
+body {
+  color: #152a3e;
+  background-color: #eeefda;
+}
+
+p {
+  font-family: "Lekton";
+}
+/**Header**/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+
+header h1 {
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+header p {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 24px;
+}
+
+/**NavBar**/
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 15px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 22px;
+}
+.navigation a:hover {
+  color: #152a3e;
+  background-color: #eeefda;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #152a3e;
+  color: #cac691;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: Lekton, sans-serif;
+  font-weight: bold;
+  color: #cac691;
+  text-decoration: none;
+}
+
+/**Main**/
+main h1 {
+  font-size: 21px;
+  text-align: center;
+  font-family: "Lexend Tera", sans-serif;
+}
+div {
+  max-width: 900px;
+  margin: auto;
+}
+div p {
+  background-color: rgb(189, 182, 182);
+  padding: 40px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/**Footer**/
+
+.footer p {
+  text-align: center;
+  background-color: #152a3e;
+  padding: 50px;
+  color: #cac691;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#copyrightYear {
+  display: block;
+}
+
+.footer a {
+  color: #cac691;
+}

@@ -45,3 +45,7 @@ h2 {
   padding: 15px;
   color: black;
 }
+
+#copyrightYear {
+  display: block;
+}
