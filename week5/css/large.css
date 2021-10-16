@@ -9,6 +9,13 @@
     margin-left: 4px;
   }
 
+  .banner {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+
   img {
     width: 130px;
   }

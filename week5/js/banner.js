@@ -1,19 +1,17 @@
-let banner = document.querySelector(".banner");
+let banner = document.querySelector(".banner")
 
-let daynames = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
+let d = new Date();
+let currentDay = d.getDay();
 
-let day = new Date();
 
-if (day == "Friday") {
-  return ``;
+function displayBanner(){
+  if( currentDay === 6)
+  banner.style.display = block;
+} 
+  else {
+  banner.style.display = 'none';
+
+}
 }
 
-let banner = document.querySelector(".banner");
+displayBanner();
