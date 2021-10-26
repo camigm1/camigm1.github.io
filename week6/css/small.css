@@ -7,7 +7,13 @@ p {
   font-family: "Lekton";
 }
 /**Header**/
-
+.banner {
+  display: block;
+  background-color: orange;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
 header {
   display: flex;
   align-items: center;
@@ -45,9 +51,7 @@ header p {
 .navigation li:first-child {
   display: block;
 }
-.navigation li {
-  display: none;
-}
+
 .navigation a {
   display: block;
   padding: 15px;
@@ -75,6 +79,18 @@ nav ul li a {
   font-weight: bold;
   color: #cac691;
   text-decoration: none;
+}
+
+.responsive {
+  display: none;
+}
+
+nav .ham span {
+  font-family: "Lekton", sans-serif;
+  padding: 10px 0;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
 
 /**Main**/

@@ -43,9 +43,7 @@ header p {
 .navigation li:first-child {
   display: block;
 }
-.navigation li {
-  display: none;
-}
+
 .navigation a {
   display: block;
   padding: 15px;
@@ -75,6 +73,13 @@ nav ul li a {
   text-decoration: none;
 }
 
+.responsive {
+  display: none;
+}
+
+.ham {
+  font-family: "Lekton", sans-serif;
+}
 /**Main**/
 main h1 {
   font-size: 21px;
