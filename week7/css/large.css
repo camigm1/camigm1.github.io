@@ -1,4 +1,4 @@
-@media only screen and (min-width: 61rem) {
+@media only screen and (min-width: 50rem) {
   header h1 {
     font-size: 40px;
   }
@@ -17,9 +17,9 @@
     padding: 20px 0;
   }
 
- /* img {
+  /* img {
     width: 130px;*/
-  }
+
   .navigation {
     display: flex;
     margin-top: 0;
@@ -111,4 +111,23 @@
   .social-media ul li a {
     float: right;
   }
-} ;
+
+  /**Gallery**/
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0;
+  }
+
+  figure {
+    margin: 10px;
+    font-style: italic;
+    width: 600px;
+    border: 1px solid black;
+  }
+
+  figcaption {
+    padding: 5px;
+  }
+}

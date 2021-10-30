@@ -167,3 +167,16 @@ div {
 .footer a {
   color: #cac691;
 }
+
+/**Gallery**/
+figure {
+  font-style: italic;
+  width: 600px;
+  border: 1px solid black;
+}
+
+figcaption {
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}

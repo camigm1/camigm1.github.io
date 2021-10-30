@@ -2,6 +2,17 @@ const input = document.querySelector("#favchap");
 const button = document.querySelector("button");
 const list = document.querySelector(".list");
 
+document.addEventListener("DOMContentLoaded", () => {
+  getStoredList();
+});
+
+function getStoredList() {
+  let myChapter = localStorage.getItem("bommchaps");
+  if (myChapter.length > 0) {
+    count.textContent = myChapter.length;
+  }
+}
+
 button.addEventListener("click", function () {
   let myChapter = input.value;
   input.value = "";
