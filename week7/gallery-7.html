@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="css/large.css" />
     <link rel="shortcut icon" href="/week5/images/favicon.ico">
     <script defer src='js/windchill.js'></script>
-    <script defer src="js/banner.js"></script>
     <script defer src="js/script.js"></script>
     <script defer src="js/date.js"></script>
+    <script defer src="js/lazyload.js"></script>
   </head>
   <body>
     <script src="js/banner.js"></script>
@@ -28,7 +28,6 @@
       <h2>Pancakes at the park this Friday at 1pm!!</h2>
     </span>
     <header>
-      <span class="banner"></span>
       <img
         src="/week6/images/iconfinder_weather_408406.png"
         width="110"
@@ -54,24 +53,24 @@
     <main>
       <h1>Weather Gallery</h1>
       <div class='gallery'>
-        <figure class="weather-pic"><img src="/week7/images/gallery-1.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-1.jpg" alt="">
           <figcaption>Lightning over Seattle</figcaption>
         </figure>
-        <figure class="weather-pic"><img src="/week7/images/gallery-2.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-2.jpg" alt="">
         <figcaption>Rainbow over the fields in Pocatello, Idaho</figcaption></figure>
-        <figure class="weather-pic"><img src="/week7/images/gallery-3.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-3.jpg" alt="">
         <figcaption>Clear Skies over Fish Haven</figcaption></figure>
-        <figure class="weather-pic"><img src="/week7/images/gallery-4.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-4.jpg" alt="">
         <figcaption>Clouds over the forest</figcaption></figure>
-        <figure class="weather-pic"><img src="/week7/images/gallery-5.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-5.jpg" alt="">
           <figcaption>Cloudy Skies during Fall in Preston</figcaption></figure>  
-        <figure class="weather-pic"><img src="/week7/images/gallery-6.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-6.jpg" alt="">
           <figcaption>Morning clouds in Boise</figcaption></figure>
-        <figure class="weather-pic"><img src="/week7/images/gallery-7.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-7.jpg" alt="">
           <figcaption>Semi cloudy sunset in Fish Haven</figcaption></figure>
-        <figure class="weather-pic"><img src="/week7/images/gallery-8.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-8.jpg" alt="">
           <figcaption>Cloudy skies in Boise</figcaption></figure>
-        <figure class="weather-pic"><img src="/week7/images/gallery-9.jpg" alt="">
+        <figure class="weather-pic"><img src="/week7/images/placeholder-image.jpg" data-src="/week7/images/gallery-9.jpg" alt="">
           <figcaption>Scattered clouds </figcaption></figure>
   
          
@@ -99,7 +98,5 @@
       &copy;2021| Camila Gallegos | Utah, USA |
       <a href="https://www.byui.edu/online" target="_blank">BYU|Online Learning</a><span id="copyrightYear"></span>
     </p>
-  <script src="js/script.js"></script>
-  <script src="js/date.js"></script>
   </body>
 </html>

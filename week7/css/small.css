@@ -85,9 +85,8 @@ nav ul li a {
   display: none;
 }
 
-nav .ham span {
+nav {
   font-family: "Lekton", sans-serif;
-  padding: 10px 0;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -171,12 +170,19 @@ div {
 /**Gallery**/
 figure {
   font-style: italic;
-  width: 600px;
-  border: 1px solid black;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+
+figure img {
+  width: 100%;
 }
 
 figcaption {
   font-family: "Lekton", sans-serif;
   font-size: 20px;
   padding: 5px;
+}
+.weather-pic:hover {
+  box-shadow: 0 0 50px #333;
 }

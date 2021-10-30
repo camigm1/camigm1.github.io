@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 768px) {
   .banner {
     display: block;
     background-color: orange;
@@ -39,5 +39,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  figure {
+    margin: 10px;
+    font-style: italic;
+    width: 500px;
+    border: 1px solid black;
   }
 } ;
