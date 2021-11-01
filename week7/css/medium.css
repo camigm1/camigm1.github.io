@@ -26,6 +26,13 @@
     padding: 35px;
     font-size: 25px;
   }
+
+  .navigation a:hover {
+    color: #152a3e;
+    background-color: #eeefda;
+    font-weight: bold;
+  }
+
   .navigation li:first-child {
     display: none;
   }
