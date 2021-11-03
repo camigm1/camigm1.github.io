@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a weather site for the Idaho region for Preston, Soda Springs and Fish Haven">
+    <title>The Weather Hub|Preston</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Lexend+Tera:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="/week5/images/favicon.ico">
+    <script defer src='js/windchill.js'></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/banner.js"></script>
+  </head>
+  <body>
+    <script defer src="js/banner.js"></script>
+    <span class="banner">
+      <h2>Pancakes at the park this Friday at 1pm!!</h2>
+    </span>
+    <header>
+      <img
+        src="/week6/images/iconfinder_weather_408406.png"
+        width="110"
+        alt="icon"
+      />
+      <section class="headings">
+        <h1>The Weather Hub</h1>
+        <p>Making Weather Fun</p>
+      </section>
+    </header>
+    <nav>
+      <div class="ham"><span>Menu</span></div>
+      <ul class="navigation">
+        <li><a href="">Home</a></li>
+        <li><a href="/week6/preston-4.html">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="">Storm Center</a></li>
+        <li><a href="">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+        <h1>Storm Center Inquiries</h1>
+        <div><form action="">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required minlength="5" /><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" /><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone"><br>
+            <label for="zipcode">Zip Code:</label><br>
+            <input type="number" id="zipcode"><br>
+            <label for="stormdate">Storm Date:</label><br>
+            <input type="date" id="stormdate"><br>
+            <label for="stormtype">Storm Type:</label><br>
+            <input list="storm-types" id="stormtype" name="stormtype">
+            <datalist id="storm-types">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+          </form></div>
+    </main>
+    <footer class="footer"><p>
+      &copy;2021| Camila Gallegos | Utah, USA |
+      <a href="https://www.byui.edu/online" target="_blank">BYU|Online Learning</a><span id="copyrightYear"></span>
+    </p>
+  </body>
+</html>
