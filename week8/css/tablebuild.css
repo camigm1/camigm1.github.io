@@ -1,0 +1,40 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gray-months {
+  background-color: #e7f0ed;
+}
+
+.green-months {
+  background-color: #e7ffed;
+}
+
+table {
+  border: 1px solid rgb(199, 195, 195);
+  margin: 0 auto;
+  margin-top: 30px;
+  box-shadow: 0 0 50px #333;
+}
+
+.acme,
+tfoot {
+  background-color: #7fb9c2;
+}
+
+.header {
+  background-color: #628ca6;
+  color: white;
+  font-weight: bold;
+}
+
+tfoot tr td {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}

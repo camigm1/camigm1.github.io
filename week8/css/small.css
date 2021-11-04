@@ -92,6 +92,10 @@ nav {
   text-align: center;
 }
 
+.ham {
+  padding: 15px 0;
+}
+
 /**Main**/
 
 main h1 {
@@ -128,10 +132,13 @@ div {
 
 .article {
   margin-top: 50px;
+  margin-left: 10px;
 }
 
 .article img {
-  width: 100%;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
 }
 
 .article p {
