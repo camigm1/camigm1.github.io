@@ -16,16 +16,21 @@ h1 {
 }
 
 table {
-  border: 1px solid rgb(199, 195, 195);
+  border: 1px solid gray;
   margin: 0 auto;
   margin-top: 30px;
-  box-shadow: 0 0 50px #333;
+  box-shadow: 25px 25px 25px #628ca6;
 }
 
 tr td {
-  padding: 7px;
+  border: gray;
+  padding: 13px;
 }
-
+.acme th {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px;
+}
 .acme,
 tfoot {
   background-color: #7fb9c2;
@@ -38,12 +43,8 @@ tfoot {
   font-weight: bold;
 }
 
-.acme th {
-  padding: 10px;
-}
-
 tfoot tr td {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   font-size: 15px;
 }
