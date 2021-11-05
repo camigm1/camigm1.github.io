@@ -17,13 +17,18 @@
     padding: 20px 0;
   }
 
-  /* img {
-    width: 130px;*/
-
   .navigation {
+    padding: 20px 0;
     display: flex;
     margin-top: 0;
   }
+
+  .navigation a:hover {
+    color: #152a3e;
+    background-color: #eeefda;
+    font-weight: bold;
+  }
+
   .navigation li {
     display: block; /* change state in small view */
     flex: 1 1 auto;

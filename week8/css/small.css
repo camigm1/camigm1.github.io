@@ -52,18 +52,18 @@ header p {
   display: block;
 }
 
-.navigation a {
-  display: block;
+.navigation li {
+  display: none;
   padding: 15px;
   text-align: left;
   text-decoration: none;
   font-size: 22px;
 }
-.navigation a:hover {
+/*.navigation a:hover {
   color: #152a3e;
   background-color: #eeefda;
   font-weight: bold;
-}
+}*/
 
 nav {
   background-color: #152a3e;
@@ -81,8 +81,8 @@ nav ul li a {
   text-decoration: none;
 }
 
-.responsive {
-  display: none;
+.responsive li {
+  display: block;
 }
 
 nav {
@@ -93,7 +93,10 @@ nav {
 }
 
 .ham {
-  padding: 15px 0;
+  padding: 13px 0;
+  font-size: 30px;
+  display: block;
+  text-align: center;
 }
 
 /**Main**/

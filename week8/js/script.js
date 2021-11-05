@@ -8,3 +8,9 @@ hambutton.addEventListener(
   },
   false
 );
+
+window.onresize = () => {
+  if (window.innerWidth > 768) {
+    mainnav.classList.remove("responsive");
+  }
+};
