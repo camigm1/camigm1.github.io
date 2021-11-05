@@ -22,15 +22,24 @@ table {
   box-shadow: 0 0 50px #333;
 }
 
+tr td {
+  padding: 7px;
+}
+
 .acme,
 tfoot {
   background-color: #7fb9c2;
 }
 
-.header {
+.header th {
+  padding: 15px;
   background-color: #628ca6;
   color: white;
   font-weight: bold;
+}
+
+.acme th {
+  padding: 10px;
 }
 
 tfoot tr td {
