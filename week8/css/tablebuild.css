@@ -26,6 +26,18 @@ tr td {
   border: gray;
   padding: 13px;
 }
+.november td:nth-child(3) {
+  background-color: #628ca6;
+  color: white;
+}
+
+.black-friday td:nth-child(2) {
+  text-align: center;
+}
+.black-friday td:first-child {
+  font-style: italic;
+}
+
 .acme th {
   font-size: 40px;
   font-weight: bold;
