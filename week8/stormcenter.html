@@ -52,16 +52,16 @@
     </nav>
 
     <main>
-        <h1>Storm Center Inquiries</h1>
+        <h1>Storm Weather Report</h1>
         <div><form action="">
-            <label for="name">Full Name:</label><br>
+            <label for="name" class="fullname">Full Name:</label><br>
             <input type="text" id="name" name="name" required minlength="5" /><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" /><br>
+            <input type="email" id="email" placeholder="youremail@email.com" required/><br>
             <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone"><br>
+            <input type="tel" id="phone" required><br>
             <label for="zipcode">Zip Code:</label><br>
-            <input type="number" id="zipcode"><br>
+            <input type="number" id="zipcode" required><br>
             <label for="stormdate">Storm Date:</label><br>
             <input type="date" id="stormdate"><br>
             <label for="stormtype">Storm Type:</label><br>
@@ -72,9 +72,57 @@
                 <option value="Hurricane">
                 <option value="Thunderstorm">
                 <option value="Tornado">
-            </datalist>
+            </datalist><br>
+            <label class="severity" for="rating">Severity: &nbsp;&nbsp;&nbsp;
+              <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+              <span id="ratingvalue">5</span>
+            </label><br>
+            <label>
+              <select name="city" id="stormregion" onchange="selectResponse()">
+                <option value="" disabled selected>Storm Region...</option>
+                <option value="preston">Preston</option>
+                <option value="fishhaven">Fish Haven</option>
+                <option value="sodasprings">Soda Springs</option>
+              </select></label><br>
+              <p class="radio">User in Danger level:</p>
+              <div class="radio-btn">
+                <input type="radio" id="yes" name="danger" value="yes"
+                       checked>
+                <label for="yes">Yes</label>
+              </div>
+              
+              <div class="radio-btn">
+                <input type="radio" id="no" name="danger" value="no">
+                <label for="no">No</label>
+              </div>
+              
+              <div class="radio-btn">
+                <input type="radio" id="maybe" name="danger" value="maybe">
+                <label for="maybe">Maybe</label>
+              </div>
+              <textarea rows="4" cols="50" name="comment" form="usrform">Additional Comments...</textarea><br>
+              <input class="submit-btn"
+              type="Submit"
+               value="Submit">
           </form></div>
     </main>
+    <div class="contact">
+      <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1274257.211756341!2d-112.33049815017152!3d42.11434121046714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1634004811612!5m2!1sen!2sus" width="400" height="281" 
+      style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <ul>
+        <li>Phone #: 777-777-7777</li>
+        <li> Email: prestonidaho@preston.com</li>
+        <li></li>
+        <!--<div class="social-media"><ul><li><a href="https://facebook.com/"><img src="/week5/images/facebook.png" width="70" alt="facebook"></a></li>
+          <li><a href="https://youtube.com/"><img src="/week5/images/youtube.png" alt="youtube"></a></li>
+          <li><a href="https://instagram.com/"><img src="/week5/images/instagram.png" alt="instagram"></a></li></ul></div>-->
+      </ul>
+    </div>
+    </div>
     <footer class="footer"><p>
       &copy;2021| Camila Gallegos | Utah, USA |
       <a href="https://www.byui.edu/online" target="_blank">BYU|Online Learning</a><span id="copyrightYear"></span>

@@ -147,4 +147,16 @@
   figcaption {
     padding: 5px;
   }
+
+  form {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  textarea {
+    font-size: 20px;
+    width: 550px;
+    height: 250px;
+    border-radius: 5px;
+    font-family: "lekton", sans-serif;
+  }
 }

@@ -207,3 +207,66 @@ figcaption {
 .weather-pic:hover {
   box-shadow: 0 0 50px #333;
 }
+
+/**form**/
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 25px;
+  border: 1px solid gray;
+  background-color: #cac691;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+label {
+  font-size: 23px;
+  font-family: "lekton", sans-serif;
+  font-weight: bold;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+label select {
+  height: 30px;
+  width: 300px;
+  border-radius: 4px;
+}
+.radio {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 7px;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "lekton", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(235, 161, 24);
+}
+
+.submit-btn:hover {
+  background-color: rgb(179, 85, 101);
+  color: white;
+}
+
+.radio-btn input {
+  margin: 0px;
+  width: 50px;
+}
+
+textarea {
+  width: 350px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: "lekton", sans-serif;
+}

@@ -3,7 +3,7 @@ let date = new Date();
 let currentDay = date.getDay();
 
 function displayBanner() {
-  if (currentDay === 6) {
+  if (currentDay === 5) {
     banner.style.display = "block";
   } else {
     banner.style.display = "none";
