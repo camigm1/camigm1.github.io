@@ -1,0 +1,64 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gray-months {
+  background-color: #e7f0ed;
+}
+
+.green-months {
+  background-color: #e7ffed;
+}
+
+table {
+  border: 1px solid gray;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-shadow: 25px 25px 25px #628ca6;
+}
+
+tr,
+td {
+  padding: 13px;
+}
+.november td:nth-child(3) {
+  background-color: #628ca6;
+  color: white;
+}
+
+.black-friday td:nth-child(2) {
+  text-align: center;
+}
+.black-friday td:first-child {
+  font-style: italic;
+}
+
+.acme th {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px;
+}
+.acme,
+tfoot {
+  background-color: #7fb9c2;
+}
+
+.header th {
+  padding: 15px;
+  background-color: #628ca6;
+  color: white;
+  font-weight: bold;
+}
+
+tfoot tr td {
+  color: rgb(63, 60, 60);
+  text-align: center;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: bold;
+}
