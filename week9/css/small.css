@@ -274,6 +274,13 @@ textarea {
 /**homepage**/
 
 .cities {
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.cities section {
+  font-size: 22px;
+  border: 2px solid;
+  background-color: #cac691;
 }
