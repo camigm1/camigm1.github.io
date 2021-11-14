@@ -100,4 +100,13 @@
     border-radius: 5px;
     font-family: "lekton", sans-serif;
   }
+
+  /**homepage**/
+  .cities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cities section {
+  }
 } ;
