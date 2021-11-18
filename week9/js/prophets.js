@@ -23,6 +23,6 @@ fetch(requestURL)
       card.appendChild(paragraphTwo);
       card.appendChild(image);
 
-      document.querySelector("div.cities").appendChild(card);
+      document.querySelector("div.cards").appendChild(card);
     }
   });

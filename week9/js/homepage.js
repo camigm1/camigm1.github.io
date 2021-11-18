@@ -17,7 +17,7 @@ fetch(requestURL)
       h2.textContent = `${towns2[i].name}`;
       paragraph.innerHTML = `Year Founded: ${towns2[i].yearFounded}`;
       paragraphTwo.innerHTML = `Population: ${towns2[i].currentPopulation}`;
-      image.setAttribute("src", towns2[i].imageurl);
+      image.setAttribute("src", towns2[i].photo);
       card.appendChild(h2);
       card.appendChild(paragraph);
       card.appendChild(paragraphTwo);

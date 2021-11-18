@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+section {
+  background: #90afc5;
+  border: 3px solid #336b87;
+  margin: 2px;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2a3132;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", sans-serif;
+  color: #2a3132;
+  font-size: 35px;
+}
+
+img {
+  padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+.cats {
+  width: 500px;
+  align-items: center;
+  display: grid;
+  margin: 0 auto;
+}
+
+.cats img {
+  margin: 2px;
+}
+
+.cats img[data-src] {
+  filter: blur(0.2em);
+}
+
+.cats img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}

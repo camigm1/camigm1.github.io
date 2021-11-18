@@ -1,0 +1,286 @@
+body {
+  color: #152a3e;
+  background-color: #eeefda;
+}
+
+p {
+  font-family: "Lekton";
+}
+/**Header**/
+.banner {
+  display: block;
+  background-color: orange;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+
+header h1,
+h3,
+h2 {
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+header p {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 24px;
+}
+
+/**NavBar**/
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+  padding: 15px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 22px;
+}
+/*.navigation a:hover {
+  color: #152a3e;
+  background-color: #eeefda;
+  font-weight: bold;
+}*/
+
+nav {
+  background-color: #152a3e;
+  color: #cac691;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: Lekton, sans-serif;
+  font-weight: bold;
+  color: #cac691;
+  text-decoration: none;
+}
+
+.responsive li {
+  display: block;
+}
+
+nav {
+  font-family: "Lekton", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ham {
+  padding: 13px 0;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+/**Main**/
+
+main h1 {
+  font-size: 21px;
+  text-align: center;
+  font-family: "Lexend Tera", sans-serif;
+}
+div {
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-ph img {
+  width: 100%;
+}
+.table {
+  display: none;
+}
+
+.weather-smr {
+  background-color: rgba(189, 182, 182, 0.7);
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.weather-smr h3 {
+  padding: 15px;
+}
+
+.weather-smr p {
+  padding: 20px 0;
+}
+
+.article {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.article img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.article p {
+  font-size: 20px;
+}
+
+.contact-info {
+  font-size: 20px;
+  font-family: "Lekton", sans-serif;
+  text-align: center;
+}
+
+.contact-info ul li {
+  list-style: none;
+  padding-left: 0;
+}
+iframe {
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+  display: block;
+}
+
+.map {
+  margin: 0 auto;
+}
+
+/**Footer**/
+
+.footer p {
+  text-align: center;
+  background-color: #152a3e;
+  padding: 50px;
+  color: #cac691;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#copyrightYear {
+  display: block;
+}
+
+.footer a {
+  color: #cac691;
+}
+
+/**Gallery**/
+figure {
+  font-style: italic;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+.weather-pic:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+/**form**/
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 25px;
+  border: 1px solid gray;
+  background-color: #cac691;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+label {
+  font-size: 23px;
+  font-family: "lekton", sans-serif;
+  font-weight: bold;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+label select {
+  height: 30px;
+  width: 300px;
+  border-radius: 4px;
+}
+.radio {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 7px;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "lekton", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(235, 161, 24);
+}
+
+.submit-btn:hover {
+  background-color: rgb(179, 85, 101);
+  color: white;
+}
+
+.radio-btn input {
+  margin: 0px;
+  width: 50px;
+}
+
+textarea {
+  width: 350px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: "lekton", sans-serif;
+}
+
+/**homepage**/
+
+.cities {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cities section {
+  font-size: 22px;
+  border: 2px solid;
+  background-color: #cac691;
+}

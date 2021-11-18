@@ -1,0 +1,112 @@
+@media only screen and (min-width: 768px) {
+  .banner {
+    display: block;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+  }
+  header h1 {
+    font-size: 30px;
+  }
+
+  header p {
+    font-size: 26px;
+  }
+  .navigation {
+    display: flex;
+    margin-top: 0;
+  }
+  .navigation li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+    padding: 35px;
+    font-size: 25px;
+  }
+
+  .navigation a:hover {
+    color: #152a3e;
+    background-color: #eeefda;
+    font-weight: bold;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .ham {
+    display: none;
+  }
+  .article img {
+    float: right;
+    width: 40%;
+  }
+
+  .contact {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .map {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+
+  .contact-info {
+    margin-top: 0;
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+
+  .contact-info ul li {
+    list-style: none;
+    font-family: "Lekton", sans-serif;
+  }
+
+  .social-media ul li a {
+    float: right;
+  }
+
+  /**Gallery**/
+  .gallery {
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  figure {
+    margin: 10px;
+    font-style: italic;
+    width: 500px;
+    border: 1px solid black;
+  }
+
+  /**form**/
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  textarea {
+    font-size: 20px;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    font-family: "lekton", sans-serif;
+  }
+
+  /**homepage**/
+  .cities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cities section {
+  }
+} ;
