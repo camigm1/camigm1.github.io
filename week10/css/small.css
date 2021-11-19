@@ -54,7 +54,7 @@ header p {
 
 .navigation li {
   display: none;
-  padding: 15px;
+
   text-align: left;
   text-decoration: none;
   font-size: 22px;
@@ -99,6 +99,10 @@ nav {
   text-align: center;
 }
 
+.active,
+li a:hover {
+  background-color: rgb(179, 85, 101);
+}
 /**Main**/
 
 main h1 {

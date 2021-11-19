@@ -19,14 +19,6 @@
 
   .navigation {
     padding: 20px 0;
-    display: flex;
-    margin-top: 0;
-  }
-
-  .navigation a:hover {
-    color: #152a3e;
-    background-color: #eeefda;
-    font-weight: bold;
   }
 
   .navigation li {
@@ -34,9 +26,8 @@
     flex: 1 1 auto;
   }
   .navigation a {
-    text-align: center;
-    padding: 35px;
     font-size: 30px;
+    padding: 0.8rem 4.5rem;
   }
   .navigation li:first-child {
     display: none;
