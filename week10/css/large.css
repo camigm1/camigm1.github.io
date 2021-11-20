@@ -27,7 +27,7 @@
   }
   .navigation a {
     font-size: 30px;
-    padding: 0.8rem 4.5rem;
+    padding: 0.75rem 4.5rem;
   }
   .navigation li:first-child {
     display: none;

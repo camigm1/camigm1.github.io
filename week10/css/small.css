@@ -101,7 +101,9 @@ nav {
 
 .active,
 li a:hover {
-  background-color: rgb(179, 85, 101);
+  background-color: #9cc2e6;
+  /*background-color: rgb(202, 148, 49);*/
+  color: #152a3e;
 }
 /**Main**/
 
