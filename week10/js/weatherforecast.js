@@ -22,4 +22,6 @@ fetch(apiURL)
     weathericon.setAttribute("alt", imgalt);
 
     //forecast
+    const evening = jsObject.list.filter((x) => x.dt_txt.includes("18:00:00"));
+    console.log(evening);
   });

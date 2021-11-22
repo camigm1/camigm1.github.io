@@ -6,7 +6,7 @@
     text-align: center;
     padding: 20px 0;
   }
-  header h1 {
+  header #main-title {
     font-size: 30px;
   }
 
@@ -41,6 +41,11 @@
   .ham {
     display: none;
   }
+  .weather-smr {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
   .article img {
     float: right;
     width: 40%;
