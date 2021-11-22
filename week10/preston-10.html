@@ -21,6 +21,7 @@
     <script defer src="js/script.js"></script>
     <script defer src="js/date.js"></script>
     <script defer src="js/banner.js"></script>
+    <script defer src='js/weatherforecast.js'></script>
   </head>
   <body>
     <span class="banner">
@@ -61,12 +62,11 @@
       </section>
       <section class="weather-smr">
         <h3>Weather Summary</h3>
-        <p>Currently: Sunny<br>
-           Temperature: <span id="averageTemp">20</span><br>
+        <p>Currently: <span id="description"></span><br>
+           Temperature: <span id="averageTemp"></span>&deg; F<br>
            Wind Chill: <span id="windChillValue"></span><br>
-           Humidity: 69%<br>
-           Precipitation: 0 inches<br>
-           Wind Speed: <span id="windSpeed">30</span></p>
+           Humidity: <span id="humidity"></span>%<br>
+           Wind Speed: <span id="windSpeed"></span></p>
       </section>
     </div>
       <div class="table">
@@ -83,11 +83,11 @@
           </thead>
           <tbody>
             <tr>
-              <td>70</td>
-              <td>75</td>
-              <td>83</td>
-              <td>77</td>
-              <td>68</td>
+              <td><span id='monday'></span> 70</td>
+              <td><span id='tuesday'></span> 75</td>
+              <td><span id='wednesday'></span> 83</td>
+              <td><span id='thursday'></span> 77</td>
+              <td><span id='friday'></span> 68</td>
             </tr>
           </tbody>
         </table>
