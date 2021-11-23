@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a weather site for the region of Preston, Idaho">
+    <title>The Weather Hub|Preston</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Lexend+Tera:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="/week5/images/favicon.ico">
+    <script defer src='js/windchill.js'></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/banner.js"></script>
+    <script defer src='js/weatherforecast.js'></script>
+  </head>
+  <body>
+    <span class="banner">
+      <h2>Pancakes at the park this Saturday at 1pm!!</h2>
+    </span>
+    <header>
+      <img
+        src="/week6/images/iconfinder_weather_408406.png"
+        width="110"
+        alt="icon"
+      />
+      <section class="headings">
+        <span id="main-title">The Weather Hub</span>
+        <p>Making Weather Fun!</p>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href="#">Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Preston, Idaho</h1>
+      <div class="herodiv">
+        <section class="hero-ph">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="/week10/images/hero-preston-large.jpg" alt="large image">
+            <source media="(min-width: 768px)" srcset="/week10/images/hero-preston-medium.jpg" alt="medium image">
+            <img src="/week10/images/hero-preston-small.jpg" alt="small image" />
+        </picture>
+      </section>
+      <section class="weather-smr">
+        <h3>Weather Summary</h3>
+        <p>Currently: <span id="description"></span><br>
+           Temperature: <span id="averageTemp"></span>&deg; F<br>
+           Wind Chill: <span id="windChillValue"></span><br>
+           Humidity: <span id="humidity"></span>%<br>
+           Wind Speed: <span id="windSpeed"></span></p>
+      </section>
+    </div>
+      <div class="table">
+        <h3>5 Day Forecast</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span id='monday'></span> 70</td>
+              <td><span id='tuesday'></span> 75</td>
+              <td><span id='wednesday'></span> 83</td>
+              <td><span id='thursday'></span> 77</td>
+              <td><span id='friday'></span> 68</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="article"><h2>Physical, Mental and Social Benefits of Hiking</h2>
+        <p>
+        <em>by Heather Rideout</em>
+      </p>
+      <img src="/week5/images/article-image.jpeg" alt="Mountain Hiking">
+      <p>In today’s day and age, it seems like a no-brainer that we should get outside more. Between the office jobs, 
+        internet-based remote work, indoor living spaces, and the amount of time we spend in our vehicles, a breath 
+        of fresh air is needed more than ever. This article will cover the physical, mental, and social health 
+        benefits of hiking.</p><p>Hiking in nature, whether on a short jaunt or a long stretch of trail, can do wonders for your
+         well-being. Although there is nothing wrong with going to the gym for physical fitness (any movement is excellent!); 
+         getting outside of an enclosed environment and into the woods can help lift your health to a whole next level.</p>
+        <p>From increasing physical fitness, to improving mental health, and even aiding us in our social lives, hiking offers 
+        many solid benefits.</p><p>Curious to know what they are? Here’s a look at the physical, mental, and social benefits of hiking – 
+        so the next chance you find yourself out in the woods on a hike, you’ll both feel excellent AND know why.
+        Like many forms of exercise, hiking can improve your cardiovascular health and physical strength.
+        <a href="#">see more...</a></p>
+      </p>
+      </div>
+      <div class="contact">
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1274257.211756341!2d-112.33049815017152!3d42.11434121046714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1634004811612!5m2!1sen!2sus" width="400" height="281" 
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <ul>
+          <li>Phone #: 777-777-7777</li>
+          <li> Email: prestonidaho@preston.com</li>
+          <li></li>
+          <!--<div class="social-media"><ul><li><a href="https://facebook.com/"><img src="/week5/images/facebook.png" width="70" alt="facebook"></a></li>
+            <li><a href="https://youtube.com/"><img src="/week5/images/youtube.png" alt="youtube"></a></li>
+            <li><a href="https://instagram.com/"><img src="/week5/images/instagram.png" alt="instagram"></a></li></ul></div>-->
+        </ul>
+      </div>
+      </div>
+    </main>
+    <footer class="footer"><p>
+      &copy;2021| Camila Gallegos | Utah, USA |
+      <a href="https://www.byui.edu/online" target="_blank">BYU|Online Learning</a><span id="copyrightYear"></span>
+    </p>
+  </body>
+</html>
