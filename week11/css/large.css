@@ -155,12 +155,13 @@
   .cities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 3rem;
-    margin-left: 200px;
+    grid-template-rows: none;
   }
 
   .cities section {
-    width: 400px;
+    margin-left: 5px;
+    max-width: 400px;
+    
   }
 
   .cities section img {

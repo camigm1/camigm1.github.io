@@ -113,4 +113,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
+
+  .cities section {
+    max-width: 90%;
+  }
+
+  .cities section img {
+    width: 90%;
+  }
 } ;
