@@ -155,7 +155,8 @@
   .cities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto;
+    margin-top: 3rem;
+    margin-left: 200px;
   }
 
   .cities section {

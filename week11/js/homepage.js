@@ -27,6 +27,8 @@ fetch(requestURL)
       paragraph.innerHTML = `Year Founded: ${towns2[i].yearFounded}`;
       paragraphTwo.innerHTML = `Population: ${towns2[i].currentPopulation}`;
       image.setAttribute("src", `images/${towns2[i].photo}`);
+      image.setAttribute("class", "sodasprings");
+
       card.appendChild(h2);
       card.appendChild(paragraph);
       card.appendChild(paragraphTwo);
