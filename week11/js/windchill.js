@@ -11,6 +11,8 @@ function windChill(averageTemp, windSpeed) {
   console.log(windchill);
   if (windchill <= 50 && windSpeed > 4.8) {
     return windchill.toFixed(0);
+  } else {
+    return 0;
   }
 }
 

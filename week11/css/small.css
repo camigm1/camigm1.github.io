@@ -201,14 +201,31 @@ iframe {
 }
 
 /**Gallery**/
+.gallery {
+  height: 1600px;
+}
 figure {
+  height: 400px;
   font-style: italic;
   max-width: 100%;
   border: 1px solid gray;
 }
 
 figure img {
+  height: 400px;
   width: 100%;
+}
+
+img,
+input[type="image"],
+video,
+embed,
+figure,
+iframe,
+marquee,
+object,
+table {
+  aspect-ratio: attr(width) / attr(height);
 }
 
 figcaption {

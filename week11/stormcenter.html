@@ -51,9 +51,10 @@
 
     <main>
         <h1>Storm Weather Report</h1>
-        <div><form action="">
+        <div><form action="thankyou.html"
+          method="get" target="_self">
             <label for="name" class="fullname">Full Name:</label><br>
-            <input type="text" id="name" name="name" required minlength="5" /><br>
+            <input type="text" pattern="^[a-zA-Z]+$" id="name" name="name" required minlength="5" /><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" placeholder="youremail@email.com" required/><br>
             <label for="phone">Phone Number:</label><br>
@@ -98,10 +99,11 @@
                 <input type="radio" id="maybe" name="danger" value="maybe">
                 <label for="maybe">Maybe</label>
               </div>
-              <textarea rows="4" cols="50" name="comment" form="usrform">Additional Comments...</textarea><br>
+              <textarea rows="4" cols="50" name="comment">Additional Comments...</textarea><br>
               <input class="submit-btn"
-              type="Submit"
-               value="Submit">
+              type="submit"
+               value="Submit"
+               >
           </form></div>
     </main>
     <div class="contact">
