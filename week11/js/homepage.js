@@ -7,7 +7,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const towns2 = jsonObject["towns"];
 
-    // console.log(towns2[(0, 6)]);
+    console.log(towns2);
 
     for (let i = 0; i < towns2.length; i++) {
       if (
@@ -25,19 +25,21 @@ fetch(requestURL)
       let paragraphTwo = document.createElement("p");
       let motto = document.createElement("p");
       let rainfall = document.createElement("p");
+      let div = document.createElement("div");
       h2.textContent = `${towns2[i].name}`;
       paragraph.innerHTML = `Year Founded: ${towns2[i].yearFounded}`;
       paragraphTwo.innerHTML = `Population: ${towns2[i].currentPopulation}`;
       motto.innerHTML = `${towns2[i].motto.italics()}`;
       rainfall.innerHTML = `Average Rainfall: ${towns2[i].averageRainfall}`;
       image.setAttribute("src", `images/${towns2[i].photo}`);
-      image.setAttribute("class", "sodasprings");
+      image.setAttribute("class", "cityImage" + i);
 
-      card.appendChild(h2);
-      card.appendChild(motto);
-      card.appendChild(paragraph);
-      card.appendChild(paragraphTwo);
-      card.appendChild(rainfall);
+      div.appendChild(h2);
+      div.appendChild(motto);
+      div.appendChild(paragraph);
+      div.appendChild(paragraphTwo);
+      div.appendChild(rainfall);
+      card.appendChild(div);
       card.appendChild(image);
 
       document.querySelector("div.cities").appendChild(card);
