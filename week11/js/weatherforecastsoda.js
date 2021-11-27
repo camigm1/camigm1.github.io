@@ -20,4 +20,8 @@ fetch(apiURL)
     windSoda.textContent = jsObject.list[0].wind.speed;
     weathericonSoda.setAttribute("src", imgsrc);
     weathericonSoda.setAttribute("alt", imgalt);
+
+    //forecast
+    const noon = jsObject.list.filter((x) => x.dt_txt.includes("18:00:00"));
+    console.log(noon);
   });

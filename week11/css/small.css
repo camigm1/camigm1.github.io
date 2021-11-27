@@ -216,7 +216,7 @@ figure img {
   width: 100%;
 }
 
-/*img,
+img,
 input[type="image"],
 video,
 embed,
@@ -226,7 +226,7 @@ marquee,
 object,
 table {
   aspect-ratio: attr(width) / attr(height);
-} */
+}
 
 figcaption {
   font-family: "Lekton", sans-serif;

@@ -12,7 +12,7 @@ function windChill(averageTempFish, windSpeedFish) {
   if (windchill <= 50 && windSpeedFish > 4.8) {
     return windchill.toFixed(0);
   } else {
-    return 0;
+    return "N/A";
   }
 }
 
