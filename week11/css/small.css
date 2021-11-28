@@ -214,6 +214,7 @@ iframe {
   justify-items: center;
   align-items: center;
   display: block;
+  width: 95%;
 }
 
 .map {
