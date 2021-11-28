@@ -42,8 +42,35 @@
     display: none;
   }
   .weather-smr {
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
+  }
+  .table {
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  table {
+    display: block;
+  }
+  th,
+  td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    grid-gap: 0px;
+  }
+  .table table {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    font-family: "Lekton", sans-serif;
+    font-size: 30px;
+    background-color: #cac691; /*rgba(189, 182, 182, 0.7);*/
+  }
+
+  .table h3 {
+    text-align: center;
+    padding-bottom: 20px;
   }
 
   .article img {
@@ -80,7 +107,7 @@
 
   /**Gallery**/
   .gallery {
-    margin-left: 0;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -89,8 +116,9 @@
   figure {
     margin: 10px;
     font-style: italic;
-    width: 500px;
+    height: 500px;
     border: 1px solid black;
+    margin-bottom: 60px;
   }
 
   /**form**/
@@ -108,10 +136,9 @@
   }
 
   /**homepage**/
-  .cities section {
+  .cities {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
   }
 
   .cities section {
@@ -122,7 +149,7 @@
     width: 90%;
   }
 
-  .cityImage0 {
+  /*.cityImage0 {
     grid-column: 2/3;
   }
 
@@ -132,5 +159,5 @@
 
   .cityImage6 {
     grid-column: 2/3;
-  }
+  }*/
 } ;

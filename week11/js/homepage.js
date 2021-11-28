@@ -25,21 +25,21 @@ fetch(requestURL)
       let paragraphTwo = document.createElement("p");
       let motto = document.createElement("p");
       let rainfall = document.createElement("p");
-      let div = document.createElement("div");
+      //let div = document.createElement("div");
       h2.textContent = `${towns2[i].name}`;
       paragraph.innerHTML = `Year Founded: ${towns2[i].yearFounded}`;
       paragraphTwo.innerHTML = `Population: ${towns2[i].currentPopulation}`;
       motto.innerHTML = `${towns2[i].motto.italics()}`;
       rainfall.innerHTML = `Average Rainfall: ${towns2[i].averageRainfall}`;
       image.setAttribute("src", `images/${towns2[i].photo}`);
-      image.setAttribute("class", "cityImage" + i);
+      // image.setAttribute("class", "cityImage" + i);
 
-      div.appendChild(h2);
-      div.appendChild(motto);
-      div.appendChild(paragraph);
-      div.appendChild(paragraphTwo);
-      div.appendChild(rainfall);
-      card.appendChild(div);
+      card.appendChild(h2);
+      card.appendChild(motto);
+      card.appendChild(paragraph);
+      card.appendChild(paragraphTwo);
+      card.appendChild(rainfall);
+      // card.appendChild(div);
       card.appendChild(image);
 
       document.querySelector("div.cities").appendChild(card);

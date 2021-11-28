@@ -122,13 +122,45 @@ div {
 }
 
 .hero-ph img {
+  border: 0.5px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
+  margin-bottom: 20px;
 }
 .table {
   display: none;
+  display: block;
+  margin: 0 auto;
 }
 
+th,
+td {
+  padding: 20px;
+  border: 1px solid gray;
+  grid-gap: 0px;
+  margin: 0 auto;
+}
+.table table {
+  display: none;
+  max-width: 900px;
+  text-align: center;
+  padding: 15px;
+  font-family: "Lekton", sans-serif;
+  font-size: 30px;
+  background-color: #cac691; /*rgba(189, 182, 182, 0.7);*/
+}
+
+.table h3 {
+  display: none;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.soda-smr {
+  background-color: rgba(107, 148, 224, 0.7);
+}
 .weather-smr {
+  border: 1px solid rgb(63, 62, 62);
   background-color: rgba(189, 182, 182, 0.7);
   font-size: 20px;
   text-align: center;
@@ -142,12 +174,15 @@ div {
 }
 
 .weather-smr p {
+  font-weight: bold;
   padding: 20px 0;
 }
 
 .article {
+  background-color: #a4c4e2;
   margin-top: 50px;
   margin-left: 10px;
+  padding: 20px;
 }
 
 .article img {
@@ -202,9 +237,10 @@ iframe {
 
 /**Gallery**/
 .gallery {
-  height: 1600px;
+  margin-bottom: 20px;
 }
 figure {
+  margin-bottom: 50px;
   height: 400px;
   font-style: italic;
   max-width: 100%;
@@ -216,7 +252,7 @@ figure img {
   width: 100%;
 }
 
-img,
+/*img,
 input[type="image"],
 video,
 embed,
@@ -226,7 +262,7 @@ marquee,
 object,
 table {
   aspect-ratio: attr(width) / attr(height);
-}
+}*/
 
 figcaption {
   font-family: "Lekton", sans-serif;
@@ -274,7 +310,7 @@ label select {
 
 .submit-btn {
   margin-top: 10px;
-  width: 130px;
+  width: 100%;
   height: 50px;
   border-radius: 5px;
   font-family: "lekton", sans-serif;
@@ -307,6 +343,7 @@ textarea {
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .cities section {
@@ -322,9 +359,14 @@ textarea {
 }
 
 .home-activities {
+  border: 1px solid rgb(175, 174, 174);
+  background-color: #a4c4e2;
+  padding: 25px;
   font-size: 20px;
   font-family: "Lekton", sans-serif;
   margin: 0 auto;
+  max-width: 950px;
+  margin-bottom: 20px;
 }
 
 .home-activities h3 {
