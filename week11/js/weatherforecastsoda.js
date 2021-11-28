@@ -4,24 +4,19 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    console.log(jsObject.list[0].weather[0].icon);
     const currentTempSoda = document.querySelector("#averageTempSoda");
     const humiditySoda = document.querySelector("#humiditySoda");
     const descriptionSoda = document.querySelector("#descriptionSoda");
     const windSoda = document.querySelector("#windSpeedSoda");
-    const weathericonSoda = document.querySelector("#imagesrc");
+    //const weathericonSoda = document.querySelector("#imagesrc");
 
-    let imgsrc = `https://openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
-    let imgalt = jsObject.list[0].weather[0].description;
+    //let imgsrc = `https://openweathermap.org/img/wn/${jsObject.list[0].weather[0].icon}.png`;
+    //let imgalt = jsObject.list[0].weather[0].description;
 
     currentTempSoda.textContent = jsObject.list[0].main.temp.toFixed(0);
     humiditySoda.textContent = jsObject.list[0].main.humidity.toFixed(0);
     descriptionSoda.textContent = jsObject.list[0].weather[0].description;
     windSoda.textContent = jsObject.list[0].wind.speed;
-    weathericonSoda.setAttribute("src", imgsrc);
-    weathericonSoda.setAttribute("alt", imgalt);
-
-    //forecast
-    const noon = jsObject.list.filter((x) => x.dt_txt.includes("18:00:00"));
-    console.log(noon);
+    //weathericonSoda.setAttribute("src", imgsrc);
+    //weathericonSoda.setAttribute("alt", imgalt);
   });

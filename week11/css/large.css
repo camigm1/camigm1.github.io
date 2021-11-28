@@ -71,6 +71,10 @@
     padding: 20px 48px;
     border: 1px solid gray;
   }
+
+  th {
+    background-color: rgb(233, 184, 93);
+  }
   .table table {
     display: block;
     text-align: center;
