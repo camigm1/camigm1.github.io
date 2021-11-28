@@ -9,12 +9,17 @@ fetch(apiFishURL)
     let day = 0;
     evening.forEach((forecast) => {
       let thedate = new Date(forecast.dt_txt);
-
+      let imgsrc =
+        "https://openweathermap.org/img/wn/" +
+        forecast.weather[0].icon +
+        ".png";
       document.querySelector(`#dayFish${day + 1}`).textContent =
         weekdays[thedate.getDay()];
       document.querySelector(`#tempFish${day + 1}`).textContent =
         forecast.main.temp.toFixed(0);
-
+      document
+        .querySelector(`#iconFish${day + 1}`)
+        .setAttribute("src", `${imgsrc}`);
       day++;
     });
   });

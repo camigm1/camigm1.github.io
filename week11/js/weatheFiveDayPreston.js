@@ -4,18 +4,27 @@ fetch(apiPrestonURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    const noon = jsObject.list.filter((x) => x.dt_txt.includes("18:00:00"));
+    const evening = jsObject.list.filter((x) => x.dt_txt.includes("18:00:00"));
     const weekdays = ["Sun", "Mon", "Tues", "Wed", "Thu", "Fri", "Sat"];
-    //let imgsrc = `https://openweathermap.org/img/wn/${jsObject.list[0].weather.icon}.png`;
+
     let day = 0;
-    noon.forEach((forecast) => {
+    evening.forEach((forecast) => {
+      let imgsrc =
+        "https://openweathermap.org/img/wn/" +
+        forecast.weather[0].icon +
+        ".png";
+      //let imgsrc = `https://openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
       let thedate = new Date(forecast.dt_txt);
       document.querySelector(`#dayPreston${day + 1}`).textContent =
         weekdays[thedate.getDay()];
       document.querySelector(`#tempPreston${day + 1}`).textContent =
         forecast.main.temp.toFixed(0);
-      //document.querySelector(`#iconPreston${day + 1}`).setAttribute("src", `${imgsrc}`);
-      //document.querySelector(`#iconPreston${day + 1}`).setAttribute("alt", `${forecast.list[0].weather[0].description}`);
+      document
+        .querySelector(`#iconPreston${day + 1}`)
+        .setAttribute("src", `${imgsrc}`);
+      //document
+      // .querySelector(`#iconPreston${day + 1}`)
+      // .setAttribute("alt", `${forecast.list[0].weather[0].description}`);
       day++;
     });
   });

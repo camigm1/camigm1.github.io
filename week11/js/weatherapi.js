@@ -5,9 +5,9 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     const currentTemp = document.querySelector("#current-temp");
-    const weathericon = document.querySelector("#imagesrc");
+    const weathericon = document.querySelector("#icon");
 
-    let imgsrc = `https://openweathermap.org/img/wn/${jsObject.list[0].weather[0].icon}.png`;
+    let imgsrc = `https://openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
     let imgalt = jsObject.list[0].weather[0].description;
     console.log(jsObject.list[0].weather[0].icon);
     currentTemp.textContent = jsObject.list[0].main.temp.toFixed(0);
