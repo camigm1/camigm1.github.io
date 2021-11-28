@@ -33,6 +33,13 @@
     background-color: #eeefda;
     font-weight: bold;
   }
+  .active,
+  li a:hover {
+    display: inline;
+    background-color: #9cc2e6;
+    /*background-color: rgb(202, 148, 49);*/
+    color: #152a3e;
+  }
 
   .navigation li:first-child {
     display: none;
