@@ -22,9 +22,9 @@ fetch(apiPrestonURL)
       document
         .querySelector(`#iconPreston${day + 1}`)
         .setAttribute("src", `${imgsrc}`);
-      //document
-      // .querySelector(`#iconPreston${day + 1}`)
-      // .setAttribute("alt", `${forecast.list[0].weather[0].description}`);
+      document
+        .querySelector(`#iconPreston${day + 1}`)
+        .setAttribute("alt", `${forecast.weather[0].description}`);
       day++;
     });
   });

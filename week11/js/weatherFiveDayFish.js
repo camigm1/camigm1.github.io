@@ -20,6 +20,9 @@ fetch(apiFishURL)
       document
         .querySelector(`#iconFish${day + 1}`)
         .setAttribute("src", `${imgsrc}`);
+      document
+        .querySelector(`#iconFish${day + 1}`)
+        .setAttribute("alt", `${forecast.weather[0].description}`);
       day++;
     });
   });
