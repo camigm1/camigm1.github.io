@@ -13,11 +13,20 @@ h1 {
   margin: 2px;
 }
 
-.cats img[data-src] {
-  filter: blur(0.2em);
+@keyframes blur {
+  0%,
+  90% {
+    filter: blur(0px);
+  }
+  70% {
+    filter: blur(20px);
+  }
 }
 
-.cats img {
-  filter: blur(0em);
-  transition: filter 0.5s;
+/*.cats img[data-src] {
+  filter: blur(0.2em);
+}*/
+
+.cats img[src] {
+  animation: blur 2s;
 }
