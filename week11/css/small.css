@@ -241,6 +241,12 @@ iframe {
 }
 
 /**Gallery**/
+.last-visit {
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  margin-left: 28px;
+}
+
 .gallery {
   margin-bottom: 20px;
 }
