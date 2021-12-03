@@ -131,6 +131,9 @@
   }
 
   /**Gallery**/
+  div .gallery {
+    box-sizing: border box;
+  }
   .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -153,6 +156,7 @@
     width: 100%;
   }
 
+  /**form**/
   form {
     max-width: 550px;
     margin: 0 auto;
