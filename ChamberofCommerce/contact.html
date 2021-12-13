@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the contact page of the Chamber of Commerce of the City of Lehi."
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lehi Chamber of Commerce|Contact</title>
+    <script defer src="js/weathersummary.js"></script>
+  </head>
+  <body>
+    <header class="main-head">
+      <h1 id="logo">Lehi Chamber of Commerce</h1>
+      <nav>
+        <ul class="navigation">
+          
+          <li><a class="ham" href="#">Menu</a></li>
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="lehi.html">Lehi</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a class="active"href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+      <main class="contact-form-box">
+        <h1>Contact Us!</h1>
+        <p></p>
+        <div>
+          <form
+            class="contact-form"
+            action="thankyou.html"
+            method="get"
+            target="_self"
+          >
+            <label for="name" class="fullname">Full Name:</label><br />
+            <input
+              type="text"
+              pattern="^[a-zA-Z]+$"
+              id="name"
+              name="name"
+              required
+              minlength="5"
+            /><br />
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="youremail@email.com"
+              required
+            /><br />
+            <label for="phone">Phone Number:</label><br />
+            <input type="tel" id="phone" required /><br />
+            <textarea rows="4" cols="50" name="comment">
+  Additional Comments...</textarea
+            ><br />
+            <input
+              class="submit-btn"
+              type="submit"
+              value="Submit Your Information"
+            />
+
+          </form>
+          </div>
+          <section class="directors">
+            <h2>Board of Directors</h2>
+            <ul>
+              <li>Andrew Badger, Treasurer</li>
+              <li>Carman Zapata, Advisor to the Chairman</li> 
+              <li>Craig Peterson, Chair</li>
+              <li>Kent Loosle, Vice Chairman</li>
+              <li>Mark R. Welcker, IOM
+                ​President & CEO</li>
+            </ul>
+            <h3>Governing Board Members</h3>
+            <ul>
+              <li>Aaron Goodrich</li>
+              <li>Clay Christensen</li>
+              <li>Cory Maloy</li>
+              <li>Curtis McGee</li>
+              <li>Dusty Pyne</li>
+              <li>Marlin Eldred</li>
+              <li>Nick Anderson</li>
+              <li>Peter Jay</li>
+              <li>Teri Sunderland</li>
+              <li>Vanessa Perez</li>
+            </ul>
+          </section>
+          <section class="contact-lehi">
+            <div class="address-phone">Name: Lehi Utah Chamber of Commerce<br>
+              Address:235 East State Street<br>
+              Lehi, Utah, 84043<br>
+              Phone: 801-766-9657<br></div>
+              <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6077.1115561493825!2d-111.845637!3d40.396537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35aca7f2fce835d7!2sLehi%20Area%20Chamber%20Of%20Commerce!5e0!3m2!1sen!2sus!4v1638858732288!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+          </section>
+    </main>
+    <footer>
+      <section class="homepage-contact">
+        <div class="contact-information">
+          <h3>Contact Information</h3>
+          <p>Phone#: 777-777-7777</p>
+          <p>lehichamber@city.com</p>
+          <ul class="social-links">
+            <li><a href=""><img src="/ChamberofCommerce/images/instagram.png" alt=""></a></A></li>
+            <li><a href=""><img src="/ChamberofCommerce/images/facebook.png" alt=""></a></li>
+            <li><a href=""><img src="/ChamberofCommerce/images/youtube.png" alt=""></a></li>
+            <li><a href=""><img src="/ChamberofCommerce/images/twitter.png" alt=""></a></li>
+          </ul>
+          <span id="copyrightYear"></span>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

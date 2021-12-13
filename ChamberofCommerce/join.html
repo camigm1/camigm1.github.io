@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the join form for the Chamber of Commerce of the city of Lehi."
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lehi Chamber of Commerce|Join</title>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/navbar.js"></script>
+    <script defer src="js/weathersummary.js"></script>
+  </head>
+  <body>
+    <header class="main-head">
+      <h1 id="logo">Lehi Chamber of Commerce</h1>
+      <nav>
+        <ul class="navigation">
+          <li><a class="ham" href="#">Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active"href="join.html">Join</a></li>
+          <li><a href="lehi.html">Lehi</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="join-section-big">
+      <h1 class="join-title">Be a member of our group!</h1>
+      <p class="join-singup">Sign up!</p>
+    <main class="join-form-box">
+      <div class="join-form-grid">
+        <form
+        class="join-form"
+          action="thankyou.html"
+          method="get"
+          target="_self"
+        >
+          <label for="name" class="firstname">First Name:</label><br />
+          <input
+            type="text"
+            pattern="^[a-zA-Z]+$"
+            id="name"
+            name="name"
+            required
+            minlength="5"
+          /><br />
+          <label for="name" class="lastname">Last Name:</label><br />
+          <input
+            type="text"
+            pattern="^[a-zA-Z]+$"
+            id="name"
+            name="name"
+            required
+            minlength="5"
+          /><br />
+          <label for="title" class="lastname">Title:</label><br />
+          <input
+            type="text"
+            
+            id="title"
+            name="title"
+            
+            minlength="5"
+          /><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            placeholder="youremail@email.com"
+            required
+          /><br />
+          <label for="phone">Cell Phone:</label><br />
+          <input type="tel" id="phone" required /><br />
+          <label for="bname">Business Name:</label><br />
+          <input type="text" id="bname" required /><br />
+          <label for="baddress">Business Address:</label><br />
+          <input type="text" id="baddress" /><br />
+          <label for="bwebsite">Business Website:</label><br />
+          <input type="text" id="bwebsite"/><br />
+          <label for="bdescription">Business Description:</label><br />
+          <input type="text" id="bdescription"/><br />
+          <label>
+            <select name="membership" id="membership" onchange="selectResponse()">
+              <option value="" disabled selected>Membership Level</option>
+              <option value="nonprofit">Non-Profit($100)</option>
+              <option value="bronze">Bronze($200)</option>
+              <option value="silver">Silver($400)</option>
+              <option value="gold">Gold($1000)</option>
+            </select></label
+          ><br />
+          <textarea rows="4" cols="50" name="comment">
+Additional Comments...</textarea
+          ><br />
+          <input
+            class="submit-btn"
+            type="submit"
+            value="Submit Membership"
+          />
+        </form>
+      </div>
+      <div class="key-section"><section class="key-one key">
+        <h4>Non Profit($100)</h4>
+        <ul>
+          <li>2 Directory Listings</li>
+          <li>2 Business Trainings</li>
+          <li>5 Social Media Posts</li>
+          <li>2 Luncheon Tickets</li>
+          <li>1 Sponsorship</li>
+        </ul>
+      </section>
+      <section class="key-two key">
+        <h4>Bronze($200)</h4>
+        <ul>
+          <li>4 Directory Listings</li>
+          <li>4 Business Trainings</li>
+          <li>7 Social Media Posts</li>
+          <li>4 Luncheon Tickets</li>
+          <li>3 Sponsorship</li>
+        </ul>
+      </section>
+      <section class="key-three key">
+        <h4>Silver($400)</h4>
+        <ul>
+          <li>6 Directory Listings</li>
+          <li>6 Business Trainings</li>
+          <li>9 Social Media Posts</li>
+          <li>6 Luncheon Tickets</li>
+          <li>5 Sponsorship</li>
+        </ul>
+      </section>
+      <section class="key-four key">
+        <h4>Gold($1000)</h4>
+        <ul>
+          <li>10 Directory Listings</li>
+          <li>10 Business Trainings</li>
+          <li>14 Social Media Posts</li>
+          <li>10 Luncheon Tickets</li>
+          <li>10 Sponsorship</li>
+        </ul>
+      </section>
+    </div>
+    </main>
+    <footer>
+      <section class="homepage-contact">
+        <div class="contact-information">
+          <h3>Contact Information</h3>
+          <p>Phone#: 777-777-7777</p>
+          <p>lehichamber@city.com</p>
+          <ul class="social-links">
+            <li><a href=""><img src="/ChamberofCommerce/images/instagram.png" alt=""></a></A></li>
+            <li><a href=""><img src="/ChamberofCommerce/images/facebook.png" alt=""></a></li>
+            <li><a href=""><img src="/ChamberofCommerce/images/youtube.png" alt=""></a></li>
+            <li><a href=""><img src="/ChamberofCommerce/images/twitter.png" alt=""></a></li>
+          </ul>
+          <span id="copyrightYear"></span>
+        </div>
+      </section>
+    </div>
+    </footer>
+  </body>
+</html>

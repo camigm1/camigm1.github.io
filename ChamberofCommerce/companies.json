@@ -1,0 +1,60 @@
+{
+  "companies": [
+    {
+      "name": "Perrigo",
+      "logo": "https://s3.eu-west-3.amazonaws.com/perrigo.com/perrigo_com_assets/PerrigoLogo_2.png?VersionId=CPnxwNJNxlcK.f5zS0pTloj_OuUGzk8m",
+      "employees": "10,220",
+      "industry": "Pharmaceutical",
+      "contact": "1-800-775-2054",
+      "weblink": "https://www.perrigo.com/"
+    },
+    {
+      "name": "Vivint Solar",
+      "logo": "https://vivintsolarcdn.com/images/vslr-sr-logo-blue.svg",
+      "employees": "4,000",
+      "industry": "Solar Energy",
+      "contact": "877-987-5591",
+      "weblink": "https://www.vivintsolar.com/"
+    },
+    {
+      "name": "Visa",
+      "logo": "https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png",
+      "employees": "17,000",
+      "industry": "Financial Services",
+      "contact": "1-800-847-2911",
+      "weblink": "https://www.visa.com/"
+    },
+    {
+      "name": "Intel",
+      "logo": "https://www.intel.com/content/dam/logos/intel-header-logo.svg",
+      "employees": "107,100",
+      "industry": "Semiconductor Manufacturing",
+      "contact": "800 538 3373",
+      "weblink": "https://www.intel.com/"
+    },
+    {
+      "name": "Nature's Way",
+      "logo": "https://cdn.naturesway.com/-/media/project/sna/brands/naturesway/header/logo.svg?h=86&w=180&extension=webp&v=1&d=20210803T094838Z&hash=9E3102A173A4A2EBF01FC54B682A2249",
+      "employees": "660",
+      "industry": "Health Care Providers & Services",
+      "contact": "1-800-962-8873",
+      "weblink": "https://www.naturesway.com/"
+    },
+    {
+      "name": "Owlet Baby Care",
+      "logo": "https://cdn.shopify.com/s/files/1/1004/3036/t/370/assets/logo.png?v=14399037114517810375",
+      "employees": "180",
+      "industry": "Internet Software & Services",
+      "contact": "(844) 334-5330",
+      "weblink": "https://www.owletcare.com/"
+    },
+    {
+      "name": "Converus",
+      "logo": "https://converus.com/wp-content/uploads/2015/03/converus-registered-logo-1.png",
+      "employees": "180",
+      "industry": "Software",
+      "contact": "801-331-8840",
+      "weblink": "https://www.converus.com/"
+    }
+  ]
+}
