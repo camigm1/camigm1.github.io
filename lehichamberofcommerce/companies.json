@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "name": "Perrigo",
+      "logo": "https://s3.eu-west-3.amazonaws.com/perrigo.com/perrigo_com_assets/PerrigoLogo_2.png?VersionId=CPnxwNJNxlcK.f5zS0pTloj_OuUGzk8m",
+      "employees": "10,220",
+      "industry": "Pharmaceutical",
+      "contact": "1-800-775-2054",
+      "weblink": "https://www.perrigo.com/"
+    },
+    {
+      "name": "Vivint Solar",
+      "logo": "https://vivintsolarcdn.com/images/vslr-sr-logo-blue.svg",
+      "employees": "4,000",
+      "industry": "Solar Energy",
+      "contact": "877-987-5591",
+      "weblink": "https://www.vivintsolar.com/"
+    },
+    {
+      "name": "Visa",
+      "logo": "https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png",
+      "employees": "17,000",
+      "industry": "Financial Services",
+      "contact": "1-800-847-2911",
+      "weblink": "https://www.visa.com/"
+    },
+    {
+      "name": "Pure Storage",
+      "logo": "https://www.purestorage.com/content/dam/purestorage/nav/pure-logo.svg.imgo.svg",
+      "employees": "2,800",
+      "industry": "Computer Hardware",
+      "contact": "800-379-7873",
+      "weblink": "https://www.purestorage.com/"
+    },
+    {
+      "name": "Nature's Way",
+      "logo": "https://cdn.naturesway.com/-/media/project/sna/brands/naturesway/header/logo.svg?h=86&w=180&extension=webp&v=1&d=20210803T094838Z&hash=9E3102A173A4A2EBF01FC54B682A2249",
+      "employees": "660",
+      "industry": "Health Care Providers & Services",
+      "contact": "1-800-962-8873",
+      "weblink": "https://www.naturesway.com/"
+    },
+    {
+      "name": "Owlet Baby Care",
+      "logo": "https://cdn.shopify.com/s/files/1/1004/3036/t/370/assets/logo.png?v=14399037114517810375",
+      "employees": "180",
+      "industry": "Internet Software & Services",
+      "contact": "(844) 334-5330",
+      "weblink": "https://www.owletcare.com/"
+    },
+    {
+      "name": "Converus",
+      "logo": "https://converus.com/wp-content/uploads/2015/03/converus-registered-logo-1.png",
+      "employees": "30",
+      "industry": "Software",
+      "contact": "801-331-8840",
+      "weblink": "https://www.converus.com/"
+    },
+    {
+      "name": "Verisk",
+      "logo": "https://www.verisk.com/siteassets/logos/svg/verisk-logo.svg",
+      "employees": "6,231",
+      "industry": "Business Service",
+      "contact": "1-800-888-4476",
+      "weblink": "https://www.verisk.com/"
+    },
+    {
+      "name": "Solar Winds",
+      "logo": "https://cms.jibecdn.com/prod/solarwinds/assets/LP-HEADER-LOGO_IMG-en-us-1593169156918.png",
+      "employees": "2,500",
+      "industry": "Software",
+      "contact": "1-866-530-8040",
+      "weblink": "https://www.solarwinds.com/"
+    }
+  ]
+}

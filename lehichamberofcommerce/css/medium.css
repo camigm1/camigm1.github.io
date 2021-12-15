@@ -1,0 +1,150 @@
+@media only screen and (min-width: 768px) {
+  /*navbar*/
+  .navigation li:first-child {
+    display: none;
+  }
+  nav {
+    /*min-height: 10vh;*/
+
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap; /* for responsive web */
+  }
+  .ham {
+    display: none;
+  }
+  .navigation {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+  }
+
+  .navbar-logo {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  #logo {
+    display: inline;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .navigation li {
+    display: block; /* change state in small view */
+  }
+
+  .people-unified {
+    display: none;
+  }
+
+  /*weather section*/
+  th,
+  td {
+    padding: 30px;
+  }
+  /*events-companies*/
+  .events-companies {
+    width: 70%;
+  }
+  .event-image {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .company-one-image img {
+    width: 70%;
+  }
+  .company-two-image img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .company-three-image img {
+    width: 80%;
+    margin: auto;
+  }
+  /*join*/
+  .join-form-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .join-title {
+    padding: 30px;
+  }
+
+  .join-signup {
+    padding: 50px;
+  }
+  .join-form-grid {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .join-form {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .key-section {
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .key {
+    display: grid;
+    width: 70%;
+    margin: 30px auto;
+  }
+
+  .key ul {
+    list-style: none;
+  }
+  /*lehi*/
+  .luminaria {
+    width: 30%;
+    float: right;
+  }
+
+  /**contact form*/
+  .contact-form {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .contact-lehi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .address-phone {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .map iframe {
+    grid-row: 1;
+    grid-column: 1;
+    width: 80%;
+  }
+
+  .join-form {
+    width: 60%;
+  }
+
+  /*directory*/
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card section {
+    margin-top: 20px;
+    background-color: white;
+    width: 95%;
+  }
+
+  .card-list {
+    width: 50%;
+  }
+}

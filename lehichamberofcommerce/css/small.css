@@ -1,0 +1,516 @@
+body {
+  font-family: "Source Sans pro", sans-serif;
+  color: rgb(77, 75, 75);
+  font-size: 24px;
+}
+
+p {
+  padding: 15px;
+}
+
+.thank-you {
+  text-align: center;
+  padding: 100px;
+}
+
+.openweather,
+.zippia {
+  color: orange;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", serif;
+  color: #780000;
+  padding: 15px;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  color: black;
+}
+
+main {
+  background-color: rgb(240, 233, 228);
+}
+/* Nav & Header*/
+.main-head {
+  background-color: #131c27;
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: auto;
+  width: 90%;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+  margin-top: 0;
+}
+.navigation li {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+nav ul a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 20px;
+  font-family: "Source Sans pro", sans-serif;
+}
+.navigation.responsive li {
+  display: block;
+}
+
+nav ul a:hover,
+.active {
+  text-decoration: underline #e59f71;
+}
+
+#logo {
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Lobster", "cursive";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #e59f71;
+}
+
+.hero {
+  min-height: 90vh;
+  background: url("/lehichamberofcommerce/images/hero-image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.hero h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+
+.hero h4 {
+  color: black;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  font-weight: bold;
+  color: rgb(156, 154, 154);
+  padding: 10px 50px;
+}
+
+button:hover {
+  color: black;
+  background-color: #e59f71;
+}
+
+/**Goal & purpose **/
+.purpose {
+  /*height: 550px;*/
+  margin-top: 0;
+  text-align: center;
+  background-color: rgb(240, 233, 228);
+  padding: 60px 0;
+}
+
+.purpose-box {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  width: 90%;
+  /*height: 400px;*/
+  padding: 10px;
+}
+
+.people-unified {
+  width: 50%;
+  float: right;
+  padding: 5px;
+}
+
+.purpose-box p {
+  text-align: left;
+}
+/**Weather summary **/
+.weather-section {
+  background: url("/lehichamberofcommerce/images/clouds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.weather-summary {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 50px;
+  background-color: white;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.table-forecast {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+.table-forecast table {
+  border-collapse: collapse;
+  background-color: white;
+  margin: 0 auto;
+  width: 90%;
+}
+th {
+  background-color: #daad86;
+  color: black;
+}
+
+td {
+  background-color: #92c6e4;
+  color: black;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+}
+/*events & companies*/
+.events-companies-section {
+  padding: 60px 0 60px;
+  background-color: rgb(240, 233, 228);
+}
+.events-companies {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  width: 95%;
+  background-color: white;
+}
+.event-image {
+  margin: 0 auto;
+}
+
+.event-image img {
+  width: 90%;
+}
+
+.company-one-content {
+  text-align: left;
+}
+.company-one-image {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.company-two-image img {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+.company-three-image img {
+  padding-bottom: 20px;
+  margin: auto;
+  width: 80%;
+}
+
+/* Lehi*/
+
+.welcome-lehi {
+  text-align: center;
+  padding: 50px;
+  color: black;
+}
+.hero-lehi {
+  min-height: 50vh;
+  background: url("/lehichamberofcommerce/images/flowers-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: left;
+}
+
+.lehi-history-hotels {
+  display: grid;
+  background-color: white;
+  width: 90%;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-hotels {
+  width: 40%;
+  float: right;
+  margin-top: 10px;
+}
+
+.lehi-events {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thanks-image {
+  padding-left: 20px;
+}
+
+.luminaria {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+/*join form */
+.join-form-box {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  background-color: rgb(240, 233, 228);
+}
+
+.key-section {
+  grid-row: 1;
+}
+
+.join-form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+.key {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  list-style: none;
+  display: grid;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.key ul {
+  list-style: none;
+}
+
+.join-hero {
+  min-height: 50vh;
+  background: url("/lehichamberofcommerce/images/join-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: left;
+}
+.join-section-big {
+  background-color: rgb(240, 233, 228);
+}
+
+.submit-btn:hover {
+  color: black;
+  background-color: #e59f71;
+  cursor: pointer;
+}
+
+.join-title {
+  text-align: center;
+  color: black;
+}
+
+.signup {
+  margin-left: 15px;
+}
+
+/*contact*/
+.contact-hero {
+  min-height: 50vh;
+  background: url("/lehichamberofcommerce/images/contact-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: left;
+  padding: 50px;
+}
+
+.contact-title {
+  padding: 50px;
+}
+.contact-form-box {
+  background-color: rgb(240, 233, 228);
+  text-align: center;
+}
+
+.contact-form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  text-align: left;
+  padding: 25px;
+  width: 90%;
+}
+
+input,
+label,
+textarea {
+  width: 70%;
+}
+
+.contact-lehi {
+  text-align: center;
+}
+
+.directors ul li {
+  list-style: none;
+}
+
+.map iframe {
+  margin-top: 10px;
+  width: 90%;
+}
+
+/* footer*/
+footer {
+  color: white;
+  background-color: #131c27;
+  margin-bottom: 0px;
+}
+
+footer h3 {
+  color: white;
+}
+.homepage-contact {
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.social-links ul {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 auto;
+}
+.social-links li {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+}
+
+.copyright {
+  margin: 0;
+}
+
+/*directory*/
+.directory-hero {
+  min-height: 50vh;
+  background: url("/lehichamberofcommerce/images/directory-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: left;
+  padding: 50px;
+}
+
+.directory-title {
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.btn-section {
+  margin-left: 25px;
+}
+.card section {
+  border: 0.5px solid gray;
+  background-color: white;
+  margin: 10px auto;
+  width: 90%;
+}
+.card-list {
+  border: 0.5px solid gray;
+  display: block;
+  margin-left: 20px;
+  background-color: white;
+  width: 80%;
+}
+
+.card-list img {
+  width: 80%;
+}
+
+.card section:hover {
+  box-shadow: 0 0 50px #333;
+}
+.card section img {
+  width: 40%;
+}
+
+.banner {
+  display: block;
+  text-align: center;
+  height: 20%;
+  font-size: 3rem;
+  background-color: rgb(231, 195, 127);
+}
+
+.banner-btn {
+  color: black;
+  border: 0.5px solid gray;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(238, 226, 226);
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.banner-btn:hover {
+  color: black;
+  background-color: #e59f71;
+}
+
+.btn-div {
+  background-color: rgb(231, 195, 127);
+  padding: 20px;
+}

@@ -1,0 +1,200 @@
+@media only screen and (min-width: 1200px) {
+  /* Nav & Header*/
+
+  nav {
+    display: block;
+    /*min-height: 10vh;*/
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+    align-items: center;
+  }
+
+  nav ul {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  #logo {
+    display: inline;
+    margin-left: 0;
+  }
+
+  /**Goal & purpose **/
+  .purpose {
+    height: 600px;
+  }
+
+  .purpose-box {
+    margin: 0 auto;
+    width: 60%;
+    height: 500px;
+  }
+
+  .people-unified {
+    display: inline;
+    width: 20%;
+    float: right;
+    padding: 5px;
+  }
+
+  /*weather section */
+  .weather-section {
+    height: 550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .weather-summary {
+    padding: 10px;
+    margin: 0 auto;
+    grid-column: 1/2;
+    width: 50%;
+    height: 60%;
+  }
+
+  .table-forecast {
+    height: 60%;
+    width: 100%;
+    grid-column: 2/3;
+  }
+
+  /**Events & companies **/
+
+  .events-companies {
+    margin: 0 auto;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    width: 70%;
+  }
+
+  .events-content {
+    display: grid;
+    grid-column: 1/2;
+  }
+
+  .event-image {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+
+  .event-image img {
+    width: 70%;
+  }
+
+  .company-one-content {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+
+  .company-one-image {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .company-two-content {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .company-three-content {
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+  /*Lehi*/
+  .lehi-history-hotels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    width: 70%;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .image-hotels {
+    width: 40%;
+    float: right;
+    margin-top: 10px;
+  }
+
+  .lehi-events {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  .luminaria {
+    width: 21.5%;
+    float: right;
+  }
+
+  /**Join**/
+  .join-form-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .join-form {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .key-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .key {
+    display: grid;
+    width: 70%;
+    margin: 30px auto;
+  }
+
+  .key ul {
+    list-style: none;
+  }
+  .contact-form {
+    width: 40%;
+    margin: 0 auto;
+  }
+  input,
+  label,
+  textarea {
+    width: 50%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  /*contact*/
+  .map iframe {
+    width: 50%;
+  }
+  /*directory*/
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card section {
+    border: 0.5px solid gray;
+    margin-top: 20px;
+    background-color: white;
+    width: 90%;
+  }
+
+  .card section img {
+    width: 40%;
+  }
+
+  .card-list {
+    margin-top: 10px;
+    width: 25%;
+  }
+
+  .card-list img {
+    width: 40%;
+  }
+}
