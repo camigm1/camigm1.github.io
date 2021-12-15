@@ -13,6 +13,11 @@ p {
   padding: 100px;
 }
 
+.openweather,
+.zippia {
+  color: orange;
+}
+
 h2,
 h3,
 h4 {
