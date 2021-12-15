@@ -25,12 +25,12 @@
       "weblink": "https://www.visa.com/"
     },
     {
-      "name": "Intel",
-      "logo": "https://www.intel.com/content/dam/logos/intel-header-logo.svg",
-      "employees": "107,100",
-      "industry": "Semiconductor Manufacturing",
-      "contact": "800 538 3373",
-      "weblink": "https://www.intel.com/"
+      "name": "Pure Storage",
+      "logo": "https://www.purestorage.com/content/dam/purestorage/nav/pure-logo.svg.imgo.svg",
+      "employees": "2,800",
+      "industry": "Computer Hardware",
+      "contact": "800-379-7873",
+      "weblink": "https://www.purestorage.com/"
     },
     {
       "name": "Nature's Way",
@@ -51,10 +51,26 @@
     {
       "name": "Converus",
       "logo": "https://converus.com/wp-content/uploads/2015/03/converus-registered-logo-1.png",
-      "employees": "180",
+      "employees": "30",
       "industry": "Software",
       "contact": "801-331-8840",
       "weblink": "https://www.converus.com/"
+    },
+    {
+      "name": "Verisk",
+      "logo": "https://www.verisk.com/siteassets/logos/svg/verisk-logo.svg",
+      "employees": "6,231",
+      "industry": "Business Service",
+      "contact": "1-800-888-4476",
+      "weblink": "https://www.verisk.com/"
+    },
+    {
+      "name": "Solar Winds",
+      "logo": "https://cms.jibecdn.com/prod/solarwinds/assets/LP-HEADER-LOGO_IMG-en-us-1593169156918.png",
+      "employees": "2,500",
+      "industry": "Software",
+      "contact": "1-866-530-8040",
+      "weblink": "https://www.solarwinds.com/"
     }
   ]
 }

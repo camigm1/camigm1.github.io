@@ -38,7 +38,8 @@
   }
 
   #logo {
-    margin: 0;
+    display: inline;
+    margin-left: 0;
     font-family: "Lobster", "cursive";
     font-weight: bold;
     font-size: 3rem;
@@ -51,7 +52,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
     justify-content: center;
     align-items: center;
     color: black;
@@ -75,7 +75,6 @@
     margin: 0 auto;
     width: 60%;
     height: 500px;
-    border: 0.5px solid gray;
   }
 
   .people-unified {
@@ -101,7 +100,6 @@
     padding: 10px;
     margin: 0 auto;
     grid-column: 1/2;
-    border: 1px solid gray;
     width: 50%;
     height: 60%;
   }
@@ -113,14 +111,6 @@
     grid-column: 2/3;
   }
 
-  th,
-  td {
-    padding: 30px;
-    border: 1px solid white;
-    text-align: center;
-    margin: 0 auto;
-  }
-
   /**Events & companies **/
   .events-companies-section {
     background-color: rgb(240, 233, 228);
@@ -128,7 +118,6 @@
 
   .events-companies {
     margin: 0 auto;
-    border: 0.5px solid gray;
     text-align: left;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -174,7 +163,6 @@
   .lehi-history-hotels {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 0.5px solid gray;
     background-color: white;
     width: 70%;
     margin: 50px auto;
@@ -188,10 +176,14 @@
   }
 
   .lehi-events {
-    border: 0.5px solid gray;
     width: 70%;
     margin: 0 auto;
     background-color: white;
+  }
+
+  .luminaria {
+    width: 21.5%;
+    float: right;
   }
 
   /**Join**/
@@ -212,7 +204,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
     list-style: none;
-    border: 1px solid gray;
     display: grid;
     width: 70%;
     margin: 30px auto;
@@ -224,7 +215,6 @@
   .contact-form {
     width: 40%;
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   input,
   label,
@@ -237,5 +227,26 @@
   /*contact*/
   .map iframe {
     width: 50%;
+  }
+  /*directory*/
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card section {
+    border: 0.5px solid gray;
+    margin-top: 20px;
+    background-color: white;
+    width: 90%;
+  }
+
+  .card section img {
+    width: 60%;
+  }
+
+  .card-list {
+    margin-top: 10px;
+    width: 40%;
   }
 }

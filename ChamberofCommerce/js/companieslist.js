@@ -22,11 +22,11 @@ fetch(requestURL)
       paragraphFour.innerHTML = `<a href="${companies[i].weblink}" target="_blank">Company Website</a>`;
       image.setAttribute("src", companies[i].logo);
       card.appendChild(h2);
+      card.appendChild(image);
       card.appendChild(paragraph);
       card.appendChild(paragraphTwo);
       card.appendChild(paragraphThree);
       card.appendChild(paragraphFour);
-      card.appendChild(image);
 
       document.querySelector(".card").appendChild(card);
     }

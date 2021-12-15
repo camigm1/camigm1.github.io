@@ -38,6 +38,11 @@
     display: none;
   }
 
+  /*weather section*/
+  th,
+  td {
+    padding: 30px;
+  }
   /*events-companies*/
   .events-companies {
     width: 70%;
@@ -50,12 +55,12 @@
     width: 70%;
   }
   .company-two-image img {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
   }
 
   .company-three-image img {
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
   /*join*/
@@ -90,7 +95,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
     list-style: none;
-    border: 1px solid gray;
     display: grid;
     width: 70%;
     margin: 30px auto;
@@ -99,28 +103,10 @@
   .key ul {
     list-style: none;
   }
-  /*footer*/
-  .footer-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 60%;
-    margin: 0 auto;
-    color: white;
-    border: 1px white solid;
-  }
-
-  .homepage-contact {
-    border: 1px white solid;
-  }
-
-  .social-links ul a {
-    border: white 1px solid;
-    padding: 5px;
-    margin: 0;
-  }
-
-  .social-links h3 {
-    text-align: center;
+  /*lehi*/
+  .luminaria {
+    width: 30%;
+    float: right;
   }
 
   /**contact form*/
@@ -147,5 +133,21 @@
 
   .join-form {
     width: 60%;
+  }
+
+  /*directory*/
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card section {
+    margin-top: 20px;
+    background-color: white;
+    width: 95%;
+  }
+
+  .card-list {
+    width: 50%;
   }
 }

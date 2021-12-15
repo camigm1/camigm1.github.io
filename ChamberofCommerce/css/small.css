@@ -19,11 +19,11 @@ h4 {
   font-family: "Merriweather", serif;
   color: #780000;
   padding: 15px;
+  margin: 0;
 }
 
 h1 {
   font-family: "Merriweather", serif;
-  padding: 15px;
   margin: 0;
   color: black;
 }
@@ -85,6 +85,7 @@ nav ul a:hover,
 }
 
 #logo {
+  font-size: 20px;
   display: block;
   margin: 0 auto;
   font-family: "Lobster", "cursive";
@@ -149,7 +150,6 @@ button:hover {
   margin: 0 auto;
   width: 90%;
   /*height: 400px;*/
-  border: 0.5px solid gray;
   padding: 10px;
 }
 
@@ -173,9 +173,9 @@ button:hover {
   padding: 10px;
 }
 .weather-summary {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   line-height: 50px;
   background-color: white;
-  border: 1px solid gray;
   width: 70%;
   text-align: center;
   margin: 0 auto;
@@ -190,14 +190,18 @@ button:hover {
   border-collapse: collapse;
   background-color: white;
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
 }
 th {
-  background-color: #780000;
-  color: white;
+  background-color: #daad86;
+  color: black;
 }
+th,
 td {
-  background-color: peachpuff;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
 }
 /*events & companies*/
 .events-companies-section {
@@ -228,30 +232,19 @@ td {
 .company-two-image img {
   margin: 0 auto;
   width: 50%;
+  height: 50%;
 }
 
 .company-three-image img {
   padding-bottom: 20px;
   margin: auto;
-}
-
-/*Homepage-contact**/
-.contact-information {
-  color: white;
-  text-align: center;
-  border: 1px solid black;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.contact-information ul li a {
-  float: left;
-  text-align: center;
+  width: 80%;
 }
 
 /* Lehi*/
 
 .welcome-lehi {
+  text-align: center;
   padding: 50px;
   color: black;
 }
@@ -267,7 +260,6 @@ td {
 
 .lehi-history-hotels {
   display: grid;
-  border: 0.5px solid gray;
   background-color: white;
   width: 90%;
   margin: 50px auto;
@@ -281,11 +273,20 @@ td {
 }
 
 .lehi-events {
-  border: 0.5px solid gray;
   width: 90%;
   margin: 0 auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thanks-image {
+  padding-left: 20px;
+}
+
+.luminaria {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
 }
 /*join form */
 .join-form-box {
@@ -300,19 +301,17 @@ td {
 }
 
 .join-form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   text-align: left;
   padding: 20px;
   width: 90%;
   margin: 0 auto;
-  border-radius: 7px;
-  border: 0.5px solid gray;
 }
 .key {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   list-style: none;
-  border: 1px solid gray;
   display: grid;
   width: 70%;
   margin: 30px auto;
@@ -322,6 +321,15 @@ td {
   list-style: none;
 }
 
+.join-hero {
+  min-height: 50vh;
+  background: url("/ChamberofCommerce/images/join-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: left;
+}
 .join-section-big {
   background-color: rgb(240, 233, 228);
 }
@@ -332,18 +340,40 @@ td {
   cursor: pointer;
 }
 
+.join-title {
+  text-align: center;
+  color: black;
+}
+
+.signup {
+  margin-left: 15px;
+}
+
 /*contact*/
+.contact-hero {
+  min-height: 50vh;
+  background: url("/ChamberofCommerce/images/contact-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: left;
+  padding: 50px;
+}
+
+.contact-title {
+  padding: 50px;
+}
 .contact-form-box {
   background-color: rgb(240, 233, 228);
   text-align: center;
 }
 
 .contact-form {
-  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   text-align: left;
   padding: 25px;
-  border-radius: 7px;
   width: 90%;
 }
 
@@ -362,6 +392,7 @@ textarea {
 }
 
 .map iframe {
+  margin-top: 10px;
   width: 90%;
 }
 
@@ -375,14 +406,100 @@ footer {
 footer h3 {
   color: white;
 }
-
-.social-links ul li {
-  float: right;
-  padding: 10px;
+.homepage-contact {
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .social-links ul {
+  display: grid;
+  grid-template-columns: auto;
   margin: 0 auto;
-  width: 90%;
+}
+.social-links li {
+  display: inline;
   list-style: none;
+  padding: 5px;
+}
+
+.copyright {
+  margin: 0;
+}
+
+/*directory*/
+.directory-hero {
+  min-height: 50vh;
+  background: url("/ChamberofCommerce/images/directory-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: left;
+  padding: 50px;
+}
+
+.directory-title {
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.btn-section {
+  margin-left: 25px;
+}
+.card section {
+  border: 0.5px solid gray;
+  background-color: white;
+  margin: 10px auto;
+  width: 90%;
+}
+.card-list {
+  border: 0.5px solid gray;
+  display: block;
+  margin-left: 20px;
+  background-color: white;
+  width: 80%;
+}
+
+.card-list img {
+  width: 80%;
+}
+
+.card section:hover {
+  box-shadow: 0 0 50px #333;
+}
+.card section img {
+  width: 80%;
+}
+
+.banner {
+  display: block;
+  text-align: center;
+  height: 20%;
+  font-size: 3rem;
+  background-color: rgb(231, 195, 127);
+}
+
+.banner-btn {
+  color: black;
+  border: 0.5px solid gray;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(238, 226, 226);
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.banner-btn:hover {
+  color: black;
+  background-color: #e59f71;
+}
+
+.btn-div {
+  background-color: rgb(231, 195, 127);
+  padding: 20px;
 }
