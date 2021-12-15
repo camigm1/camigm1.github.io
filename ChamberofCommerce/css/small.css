@@ -101,7 +101,7 @@ nav ul a:hover,
 
 .hero {
   min-height: 90vh;
-  background: url("/ChamberofCommerce/images/hero-image-1.jpg");
+  background: url("/chamberofcommerce/images/hero-image-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -169,7 +169,7 @@ button:hover {
 }
 /**Weather summary **/
 .weather-section {
-  background: url("/ChamberofCommerce/images/clouds.jpg");
+  background: url("/chamberofcommerce/images/clouds.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -216,6 +216,7 @@ td {
 /*events & companies*/
 .events-companies-section {
   padding: 60px 0 60px;
+  background-color: rgb(240, 233, 228);
 }
 .events-companies {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -260,7 +261,7 @@ td {
 }
 .hero-lehi {
   min-height: 50vh;
-  background: url("/ChamberofCommerce/images/flowers-1.jpg");
+  background: url("/chamberofcommerce/images/flowers-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -333,7 +334,7 @@ td {
 
 .join-hero {
   min-height: 50vh;
-  background: url("/ChamberofCommerce/images/join-hero-1.jpg");
+  background: url("/chamberofcommerce/images/join-hero-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -362,7 +363,7 @@ td {
 /*contact*/
 .contact-hero {
   min-height: 50vh;
-  background: url("/ChamberofCommerce/images/contact-hero.jpg");
+  background: url("/chamberofcommerce/images/contact-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -441,7 +442,7 @@ footer h3 {
 /*directory*/
 .directory-hero {
   min-height: 50vh;
-  background: url("/ChamberofCommerce/images/directory-hero-1.jpg");
+  background: url("/chamberofcommerce/images/directory-hero-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

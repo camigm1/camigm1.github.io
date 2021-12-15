@@ -1,16 +1,5 @@
 @media only screen and (min-width: 1200px) {
-  body {
-    font-family: "Source Sans pro", sans-serif;
-    color: rgb(77, 75, 75);
-  }
-
   /* Nav & Header*/
-  .main-head {
-    color: white;
-    position: sticky;
-    top: 0px;
-    z-index: 3;
-  }
 
   nav {
     display: block;
@@ -27,51 +16,18 @@
     align-items: center;
     list-style: none;
   }
-  nav ul a {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
-    padding: 20px;
-    font-family: "source sans pro", sans-serif;
-  }
 
   #logo {
     display: inline;
     margin-left: 0;
-    font-family: "Lobster", "cursive";
-    font-weight: bold;
-    font-size: 3rem;
-    color: #e59f71;
   }
 
-  .hero {
-    min-height: 90vh;
-    background: url("/ChamberofCommerce/images/hero-image-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero h3 {
-    font-size: 50px;
-  }
   /**Goal & purpose **/
   .purpose {
     height: 600px;
-    margin-top: 0;
-    background-color: rgb(240, 233, 228);
   }
 
   .purpose-box {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0 auto;
     width: 60%;
     height: 500px;
@@ -86,11 +42,6 @@
 
   /*weather section */
   .weather-section {
-    background: url("/ChamberofCommerce/images/clouds.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
     height: 550px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -105,16 +56,12 @@
   }
 
   .table-forecast {
-    text-align: center;
     height: 60%;
     width: 100%;
     grid-column: 2/3;
   }
 
   /**Events & companies **/
-  .events-companies-section {
-    background-color: rgb(240, 233, 228);
-  }
 
   .events-companies {
     margin: 0 auto;
@@ -201,9 +148,6 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
   .key {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
-    list-style: none;
     display: grid;
     width: 70%;
     margin: 30px auto;
