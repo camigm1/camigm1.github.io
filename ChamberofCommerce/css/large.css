@@ -242,11 +242,15 @@
   }
 
   .card section img {
-    width: 60%;
+    width: 40%;
   }
 
   .card-list {
     margin-top: 10px;
+    width: 25%;
+  }
+
+  .card-list img {
     width: 40%;
   }
 }
