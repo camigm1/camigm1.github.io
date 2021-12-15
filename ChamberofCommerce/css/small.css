@@ -196,6 +196,11 @@ th {
   background-color: #daad86;
   color: black;
 }
+
+td {
+  background-color: #92c6e4;
+  color: black;
+}
 th,
 td {
   padding: 10px;
