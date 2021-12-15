@@ -101,7 +101,7 @@ nav ul a:hover,
 
 .hero {
   min-height: 90vh;
-  background: url("/chamberofcommerce/images/hero-image-1.jpg");
+  background: url("/images/hero-image-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -169,7 +169,7 @@ button:hover {
 }
 /**Weather summary **/
 .weather-section {
-  background: url("/chamberofcommerce/images/clouds.jpg");
+  background: url("/images/clouds.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -261,7 +261,7 @@ td {
 }
 .hero-lehi {
   min-height: 50vh;
-  background: url("/chamberofcommerce/images/flowers-1.jpg");
+  background: url("/images/flowers-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -334,7 +334,7 @@ td {
 
 .join-hero {
   min-height: 50vh;
-  background: url("/chamberofcommerce/images/join-hero-1.jpg");
+  background: url("/images/join-hero-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -363,7 +363,7 @@ td {
 /*contact*/
 .contact-hero {
   min-height: 50vh;
-  background: url("/chamberofcommerce/images/contact-hero.jpg");
+  background: url("/images/contact-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -442,7 +442,7 @@ footer h3 {
 /*directory*/
 .directory-hero {
   min-height: 50vh;
-  background: url("/chamberofcommerce/images/directory-hero-1.jpg");
+  background: url("/images/directory-hero-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
