@@ -36,7 +36,7 @@
   .active,
   li a:hover {
     display: inline;
-    background-color: #9cc2e6;
+    background-color: #eeefda;
     /*background-color: rgb(202, 148, 49);*/
     color: #152a3e;
   }
